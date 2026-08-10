@@ -1,0 +1,9 @@
+The Nigeria DHS microdata are not distributed with this repository.
+
+Authorised users wishing to reproduce the analysis should obtain access
+to the 2024 Nigeria Demographic and Health Survey through The DHS Program,
+download the Pregnancy and Postnatal Care Recode in Stata format,
+extract the authorised .DTA file, and place it in this directory.
+
+The original respondent-level data remain subject to The DHS Program's
+terms of use.
