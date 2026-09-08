@@ -1,0 +1,15 @@
+quality_check,result
+Analytical records before model exclusions,10522
+Complete modelling records,10236
+Complete-continuum events,2702
+Complete-continuum non-events,7534
+Survey design degrees of freedom,1282
+Adjusted model parameters excluding intercept,19
+Events per estimated parameter,142.21
+Predictor categories below suppression threshold,0
+Invalid unadjusted odds ratios,0
+Invalid adjusted odds ratios,0
+Invalid unadjusted confidence intervals,0
+Invalid adjusted confidence intervals,0
+Invalid adjusted-model p-values,0
+Adjusted model converged,1

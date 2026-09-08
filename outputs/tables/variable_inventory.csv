@@ -1,0 +1,965 @@
+variable,variable_label,value_labels,r_class,missing_n,missing_percent,unique_n
+caseid,case identification,NA,character,0,0,15093
+pidx,pregnancy column number,NA,numeric,0,0,5
+v000,country code and phase,NA,character,0,0,1
+v001,cluster number,NA,numeric,0,0,1369
+v002,household number,NA,numeric,0,0,203
+v003,respondent's line number,NA,numeric,0,0,22
+v004,ultimate area unit,NA,numeric,0,0,1369
+v005,women's individual sample weight (6 decimals),NA,numeric,0,0,1367
+v006,month of interview,NA,numeric,0,0,6
+v007,year of interview,NA,numeric,0,0,2
+v008,date of interview (cmc),NA,numeric,0,0,6
+v008a,date of interview century day code (cdc),NA,numeric,0,0,153
+v009,respondent's month of birth,NA,numeric,0,0,12
+v010,respondent's year of birth,NA,numeric,0,0,35
+v011,date of birth (cmc),NA,numeric,0,0,411
+v012,respondent's current age,NA,numeric,0,0,35
+v013,age in 5-year groups,15-19 = 1 | 20-24 = 2 | 25-29 = 3 | 30-34 = 4 | 35-39 = 5 | 40-44 = 6 | 45-49 = 7,"haven_labelled, vctrs_vctr, double",0,0,7
+v014,completeness of age information,month and year - information complete = 1 | month and age - year imputed = 2 | year and age - month imputed = 3 | year and age - year ignored = 4 | year - age/month imputed = 5 | age - year/month imputed = 6 | month - age/year imputed = 7 | none - all imputed = 8,"haven_labelled, vctrs_vctr, double",0,0,4
+v015,result of individual interview,completed = 1 | not at home = 2 | postponed = 3 | refused = 4 | partially completed = 5 | respondent incapacitated = 6 | other = 7,"haven_labelled, vctrs_vctr, double",0,0,1
+v016,day of interview,NA,numeric,0,0,31
+v017,cmc start of calendar,NA,numeric,0,0,1
+v018,row of month of interview,no calendar = 0,"haven_labelled, vctrs_vctr, double",0,0,6
+v019,length of calendar,no calendar = 0,"haven_labelled, vctrs_vctr, double",0,0,6
+v019a,number of calendar columns,no calendar = 0,"haven_labelled, vctrs_vctr, double",0,0,1
+v020,ever-married sample,all woman sample = 0 | ever married sample = 1,"haven_labelled, vctrs_vctr, double",0,0,1
+v021,primary sampling unit,NA,numeric,0,0,1369
+v022,sample strata for sampling errors,sokoto urban = 1 | sokoto rural = 2 | zamfara urban = 3 | zamfara rural = 4 | katsina urban = 5 | katsina rural = 6 | jigawa urban = 7 | jigawa rural = 8 | yobe urban = 9 | yobe rural = 10 | borno urban = 11 | borno rural = 12 | adamawa urban = 13 | adamawa rural = 14 | gombe urban = 15 | gombe rural = 16 | bauchi urban = 17 | bauchi rural = 18 | kano urban = 19 | kano rural = 20 | kaduna urban = 21 | kaduna rural = 22 | kebbi urban = 23 | kebbi rural = 24 | niger urban = 25 | niger rural = 26 | fct urban = 27 | fct rural = 28 | nasarawa urban = 29 | nasarawa rural = 30 | plateau urban = 31 | plateau rural = 32 | taraba urban = 33 | taraba rural = 34 | benue urban = 35 | benue rural = 36 | kogi urban = 37 | kogi rural = 38 | kwara urban = 39 | kwara rural = 40 | oyo urban = 41 | oyo rural = 42 | osun urban = 43 | osun rural = 44 | ekiti urban = 45 | ekiti rural = 46 | ondo urban = 47 | ondo rural = 48 | edo urban = 49 | edo rural = 50 | anambra urban = 51 | anambra rural = 52 | enugu urban = 53 | enugu rural = 54 | ebonyi urban = 55 | ebonyi rural = 56 | cross river urban = 57 | cross river rural = 58 | akwa ibom urban = 59 | akwa ibom rural = 60 | abia urban = 61 | abia rural = 62 | imo urban = 63 | imo rural = 64 | rivers urban = 65 | rivers rural = 66 | bayelsa urban = 67 | bayelsa rural = 68 | delta urban = 69 | delta rural = 70 | lagos urban = 71 | lagos rural = 72 | ogun urban = 73 | ogun rural = 74,"haven_labelled, vctrs_vctr, double",0,0,74
+v023,stratification used in sample design,sokoto urban = 1 | sokoto rural = 2 | zamfara urban = 3 | zamfara rural = 4 | katsina urban = 5 | katsina rural = 6 | jigawa urban = 7 | jigawa rural = 8 | yobe urban = 9 | yobe rural = 10 | borno urban = 11 | borno rural = 12 | adamawa urban = 13 | adamawa rural = 14 | gombe urban = 15 | gombe rural = 16 | bauchi urban = 17 | bauchi rural = 18 | kano urban = 19 | kano rural = 20 | kaduna urban = 21 | kaduna rural = 22 | kebbi urban = 23 | kebbi rural = 24 | niger urban = 25 | niger rural = 26 | fct urban = 27 | fct rural = 28 | nasarawa urban = 29 | nasarawa rural = 30 | plateau urban = 31 | plateau rural = 32 | taraba urban = 33 | taraba rural = 34 | benue urban = 35 | benue rural = 36 | kogi urban = 37 | kogi rural = 38 | kwara urban = 39 | kwara rural = 40 | oyo urban = 41 | oyo rural = 42 | osun urban = 43 | osun rural = 44 | ekiti urban = 45 | ekiti rural = 46 | ondo urban = 47 | ondo rural = 48 | edo urban = 49 | edo rural = 50 | anambra urban = 51 | anambra rural = 52 | enugu urban = 53 | enugu rural = 54 | ebonyi urban = 55 | ebonyi rural = 56 | cross river urban = 57 | cross river rural = 58 | akwa ibom urban = 59 | akwa ibom rural = 60 | abia urban = 61 | abia rural = 62 | imo urban = 63 | imo rural = 64 | rivers urban = 65 | rivers rural = 66 | bayelsa urban = 67 | bayelsa rural = 68 | delta urban = 69 | delta rural = 70 | lagos urban = 71 | lagos rural = 72 | ogun urban = 73 | ogun rural = 74,"haven_labelled, vctrs_vctr, double",0,0,74
+v024,zone (code are as per sample frame),north west = 1 | north east = 2 | north central = 3 | south east = 4 | south south = 5 | south west = 6,"haven_labelled, vctrs_vctr, double",0,0,6
+v025,type of place of residence,urban = 1 | rural = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v026,na - de facto place of residence,"capital, large city = 0 | small city = 1 | town = 2 | countryside = 3","haven_labelled, vctrs_vctr, double",17986,100,0
+v027,number of visits,NA,numeric,0,0,2
+v028,interviewer identification,NA,numeric,0,0,129
+v029,na - keyer identification,NA,numeric,17986,100,0
+v030,field supervisor,NA,numeric,0,0,37
+v031,na - field editor,NA,numeric,17986,100,0
+v032,na - office editor,NA,numeric,17986,100,0
+v034,line number of husband,husband not in household = 0,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,14
+v040,cluster altitude in meters,NA,numeric,0,0,575
+v042,household selected for hemoglobin,not selected = 0 | selected = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v044,selected for domestic violence module,"woman not selected = 0 | woman selected and interviewed = 1 | woman selected, but privacy not possible = 2 | woman selected, but not interviewed = 3","haven_labelled, vctrs_vctr, double",0,0,4
+v045a,language of questionnaire,english = 1 | hausa = 2 | yoruba = 3 | igbo = 4,"haven_labelled, vctrs_vctr, double",0,0,4
+v045b,language of interview,english = 1 | hausa = 2 | yoruba = 3 | igbo = 4,"haven_labelled, vctrs_vctr, double",0,0,4
+v045c,native language of respondent,english = 1 | hausa = 2 | yoruba = 3 | igbo = 4 | other language = 6,"haven_labelled, vctrs_vctr, double",0,0,5
+v046,translator used,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v047,team number,NA,numeric,0,0,37
+v048,team supervisor,NA,numeric,0,0,37
+v101,zone (codes are as per sample frame),north west = 1 | north east = 2 | north central = 3 | south east = 4 | south south = 5 | south west = 6,"haven_labelled, vctrs_vctr, double",0,0,6
+v102,type of place of residence,urban = 1 | rural = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v103,na - childhood place of residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4","haven_labelled, vctrs_vctr, double",17986,100,0
+v104,years lived in place of residence,always = 95 | visitor = 96 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,46
+v105,type of place of previous residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4","haven_labelled, vctrs_vctr, double",10260,57.04436784165462,3
+v105a,zone of previous residence,north central = 1 | north east = 2 | north west = 3 | south east = 4 | south south = 5 | south west = 6 | abroad = 96,"haven_labelled, vctrs_vctr, double",10260,57.04436784165462,7
+v106,highest educational level,no education = 0 | primary = 1 | secondary = 2 | higher = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,4
+v107,highest year of education,no years completed at level v106 = 0,"haven_labelled, vctrs_vctr, double",7315,40.670521516735235,9
+v113,source of drinking water,piped water = 10 | piped into dwelling = 11 | piped to yard/plot = 12 | piped to neighbor = 13 | public tap/standpipe = 14 | tube well water = 20 | tube well or borehole = 21 | dug well (open/protected) = 30 | protected well = 31 | unprotected well = 32 | surface from spring = 40 | protected spring = 41 | unprotected spring = 42 | river/dam/lake/ponds/stream/canal/irrigation channel = 43 | rainwater = 51 | tanker truck = 61 | cart with small tank = 62 | bottled water = 71 | sachet water = 72 | other = 96 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,17
+v115,time to get to water source,on premises = 996 | not a de jure resident = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,82
+v116,type of toilet facility,"flush toilet = 10 | flush to piped sewer system = 11 | flush to septic tank = 12 | flush to pit latrine = 13 | flush to somewhere else = 14 | flush, don't know where = 15 | pit toilet latrine = 20 | ventilated improved pit latrine (vip) = 21 | pit latrine with slab = 22 | pit latrine without slab/open pit = 23 | no facility = 30 | no facility/bush/field = 31 | composting toilet = 41 | bucket toilet = 42 | hanging toilet/latrine = 43 | other = 96 | not a de jure resident = 97","haven_labelled, vctrs_vctr, double",0,0,14
+v119,household has: electricity,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v120,household has: radio,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v121,household has: television,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v122,household has: refrigerator,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v123,household has: bicycle,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v124,household has: motorcycle/scooter,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v125,household has: car/truck,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v127,main floor material,---natural floor--- = 10 | earth/sand = 11 | dung = 12 | ---rudimentary floor--- = 20 | wood planks = 21 | palm/bamboo = 22 | ---finished floor--- = 30 | parquet or polished wood = 31 | vinyl or asphalt strips = 32 | ceramic tiles = 33 | cement = 34 | carpet = 35 | other = 96 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,11
+v128,main wall material,---natural walls--- = 10 | no walls = 11 | cane/palm/trunks = 12 | dirt = 13 | mud = 14 | ---rudimentary walls--- = 20 | bamboo with mud = 21 | stone with mud = 22 | uncovered adobe = 23 | plywood = 24 | cardboard = 25 | reused wood = 26 | ---finished walls--- = 30 | cement = 31 | stone with lime/cement = 32 | bricks = 33 | cement blocks = 34 | covered adobe = 35 | wood planks/shingles = 36 | other = 96 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,18
+v129,main roof material,---natural roofing--- = 10 | no roof = 11 | thatch/palm leaf = 12 | mud = 13 | ---rudimentary roofing--- = 20 | rustic mat = 21 | palm/bamboo = 22 | wood planks = 23 | cardboard = 24 | ---finished roofing--- = 30 | metal/zinc = 31 | wood = 32 | calamine/cement fiber = 33 | ceramic tiles = 34 | cement = 35 | roofing shingles = 36 | other = 96 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,15
+v130,religion,catholic = 1 | other christian = 2 | islam = 3 | traditionalist = 4 | other = 96,"haven_labelled, vctrs_vctr, double",0,0,5
+v131,ethnicity,abua = 1 | adra/adarawa = 2 | adun = 3 | afcabeya = 4 | afemai = 5 | afizire = 6 | agatu = 7 | agbassa = 8 | agbor = 9 | afo = 10 | ajowa = 11 | akpa = 12 | akwai = 13 | akye = 14 | alago = 15 | amamong = 16 | amo = 17 | ana = 18 | anaguta = 19 | ankwai = 20 | annang = 21 | arab = 22 | arabo = 23 | arbar = 24 | arugu = 25 | aten/atam = 26 | attakar = 27 | auchi = 28 | aulliminden = 29 | awo = 30 | ayetoro gbede = 31 | badarare = 32 | bade/badawe = 33 | bafeke = 34 | bagathiya = 35 | baggara = 36 | bagunge/badagire = 37 | bahnake = 38 | baji/biji = 39 | bajju = 40 | bambaro = 41 | bambuka = 42 | bandawa = 43 | banguji = 44 | bankalawa = 45 | bchama = 46 | barabaci = 47 | barawa = 48 | bargawa = 49 | bassa = 50 | bekworas = 51 | berom = 53 | bini/edo = 54 | bogom = 55 | boiyawa/bozaya = 56 | bolawa/bolewa = 57 | buduma = 59 | buko = 60 | bura/babur = 61 | buzu = 62 | byazhi = 63 | calabar = 64 | chala = 65 | chamba = 66 | chiba = 67 | chibok(g) = 68 | chip = 69 | dadiya = 70 | badakare/dakarkari = 71 | dakka/doka = 72 | dangula = 73 | daurawa/dagarawa = 74 | defaka = 75 | degima = 76 | delta ibo = 77 | dibo = 78 | diguza = 79 | djerma = 80 | dmoko = 81 | dolchi = 82 | ebira/igbira = 83 | ebu = 84 | efik = 85 | egba = 86 | egbado = 87 | eggon = 88 | egun = 89 | eket = 90 | ekoi = 91 | ekpeye/afisa/epie = 92 | ekulu = 94 | eleme = 95 | emu = 96 | esan = 97 | etina = 98 | etsako = 99 | etulo = 100 | hadejawa = 101 | fanso = 102 | femawa = 103 | fer = 104 | filiya/fali = 105 | fon = 106 | foron = 107 | french = 108 | fulani = 109 | gamaku = 110 | gamaru = 111 | gamuni = 112 | gana gana = 113 | ganawuri = 114 | gbaju/gbagi = 115 | gede/gude/gai = 116 | gerawa = 117 | gizmawa = 118 | glauda = 119 | gmenchi = 120 | gomo/gamoyaya = 121 | gobiri/gobirawa/bogobiri = 122 | gujjurawa = 123 | guemai = 124 | gumbarawa = 125 | gunganchi = 126 | gwandara = 127 | gwantu = 128 | hankwe = 129 | hausa = 130 | higgi = 131 | ibariba = 132 | ibibio = 133 | ichen = 134 | idanre = 135 | idoma = 136 | igala = 137 | igbo/ibo = 138 | igede = 139 | ijaw/izon = 140 | ijede = 141 | ijeme = 142 | ika = 143 | ikajo = 144 | ikara = 145 | ikpeshi = 146 | ikpide = 147 | ikulu = 148 | ikwere = 149 | ilaje = 150 | irigwe = 151 | ishan = 152 | isoko = 153 | itsekiri = 154 | jaba = 155 | jajiri = 156 | jakatoe = 157 | jaku = 158 | jara = 159 | jarawa = 160 | jibu = 162 | jonjo = 163 | jukun = 164 | kabawa = 165 | kadara = 166 | kagoma = 167 | kagoro = 168 | kaka = 169 | kakanda = 170 | kamantam = 171 | kambari = 172 | kambu/kangu = 173 | kamuku = 174 | kanakuru = 175 | kanawa = 176 | kaninko = 177 | kantanawa = 178 | kanuri/beriberi = 179 | manga = 180 | karekare = 181 | kataf/atyap = 182 | kento = 183 | kibaku = 184 | kilba = 185 | kirdi = 186 | kodki = 187 | kofyar = 188 | kona = 189 | koro = 190 | koto = 191 | kuenuem = 192 | kumbo = 193 | kunkawa/kawa = 194 | kurama = 195 | kuteb = 196 | kuturm = 197 | kwale/ukwuani = 198 | kwanzo = 199 | lagelu = 200 | lantang = 201 | lemoro = 202 | loh = 203 | lunguda = 204 | maba/mbadowa = 205 | mada = 206 | mafa/maka/maga = 207 | mambila = 208 | mandara = 209 | mangus/manju = 210 | marghi/mangi = 211 | mbwa = 212 | mingo = 213 | mirnang = 214 | montor = 215 | mtchiga/michika = 216 | mumuye = 217 | munga = 218 | mupung = 219 | mushere = 220 | mwagavol = 221 | naiawum = 222 | namoen = 223 | ndokwa = 224 | ndola = 225 | ngamo = 226 | ukale = 227 | ngoshe = 228 | nili = 229 | ninnma = 230 | ninzom = 231 | nkoroo = 232 | nnebe = 233 | numana = 234 | nungu = 235 | nunku = 236 | nupe = 237 | obubua = 238 | odu = 239 | ogoja = 240 | ogoni = 241 | ogugu = 242 | okori/ogori = 243 | omele = 244 | ora = 245 | oron = 246 | owan = 247 | owo = 249 | pa'awa = 250 | paburi = 251 | paibun = 252 | panya = 253 | pasama = 254 | pero = 255 | piya = 256 | pyem = 257 | rukuba = 258 | rulere = 259 | rundawa = 260 | sayawa/siyawa = 261 | sekere = 262 | sharawa = 263 | shomo = 264 | shuwa = 265 | somunka = 266 | sullubawa = 267 | sura = 268 | taira = 269 | tangale = 270 | tarok = 272 | tera = 273 | teskwa = 274 | tiguni = 275 | tiv = 276 | tiyari = 277 | tula = 278 | ubaija = 279 | ugbia = 280 | uhionigbe = 281 | ukwuani = 282 | urhobo = 283 | uyo = 284 | uzaurue = 285 | uzeba = 286 | waja = 287 | waka = 288 | wanu = 289 | wari = 290 | warjawa = 291 | wodaabe = 292 | wurkum = 293 | yakurr = 294 | yandang = 295 | yendre = 296 | yonubi = 297 | yoruba = 298 | zabarmawa = 299 | kaje = 301 | igbanko = 302 | okori/ogori = 303 | migili = 304 | gwari = 305 | uru = 306 | okirika = 307 | egi = 308 | ogba = 309 | moroa = 310 | marwa = 311 | toff = 312 | fulfulde = 313 | kabba/okun = 314 | bakabe = 315 | burmanch = 316 | kalabari = 317 | miship = 320 | karimjo = 321 | kwa = 322 | angas = 323 | bobari = 324 | yarimawa = 325 | bakenga = 326 | agazawa = 327 | gwoza = 328 | zalidva = 329 | nyangdang = 330 | ngezim = 331 | hanbagda = 332 | njanyi = 333 | dumak = 334 | kwalla = 335 | yeskwa and mubula = 336 | bile = 337 | offa = 338 | yungur = 339 | pura pura = 340 | rindre = 341 | dukawa = 342 | ningi = 343 | cham = 344 | kamo = 345 | lala = 346 | laru = 347 | lisa = 348 | gaanda = 349 | ezza = 350 | kubasawa. = 351 | gusu = 352 | ikpoma = 353 | buh = 354 | mushere = 355 | chakeem = 356 | jipal = 357 | ugeb = 358 | koma = 359 | verre/kila = 360 | zuru = 361 | honna = 362 | kapsiki = 363 | jere = 364 | gizi yobe = 365 | karekare = 366 | kulere = 367 | beteer = 368 | bashama = 369 | antocha = 370 | baruba/baruntin = 371 | nezou = 372 | dibba = 373 | kanum = 374 | gasawa = 375 | muryan = 376 | bageri = 377 | ahu = 378 | basange = 379 | nakere = 380 | batunu = 381 | sanga = 382 | ohari = 383 | numuro = 384 | tangale = 385 | guruma = 386 | otuwo = 387 | batala = 388 | ogbo = 389 | egbema = 390 | dara = 391 | andoni = 392 | obolo = 393 | pegan = 394 | iyala = 395 | jibawa = 396 | mungaduso = 397 | okobo = 398 | others = 996 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,261
+v133,education in single years,inconsistent = 97,"haven_labelled, vctrs_vctr, double",0,0,21
+v134,na - de facto place of residence,"capital, large city = 0 | small city = 1 | town = 2 | countryside = 3","haven_labelled, vctrs_vctr, double",17986,100,0
+v135,usual resident or visitor,usual resident = 1 | visitor = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v136,number of household members (listed),NA,numeric,0,0,29
+v137,number of children 5 and under in household (de jure),NA,numeric,0,0,11
+v138,number of eligible women in household (de facto),NA,numeric,0,0,9
+v139,de jure region of residence,abroad = 0 | north west = 1 | north east = 2 | north central = 3 | south east = 4 | south south = 5 | south west = 6 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,7
+v140,de jure type of place of residence,abroad = 0 | urban = 1 | rural = 2 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v141,na - de jure place of residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4 | not a de jure resident = 7","haven_labelled, vctrs_vctr, double",17848,99.23273657289002,1
+v149,educational attainment,no education = 0 | incomplete primary = 1 | complete primary = 2 | incomplete secondary = 3 | complete secondary = 4 | higher = 5,"haven_labelled, vctrs_vctr, double",0,0,6
+v150,relationship to household head,head = 1 | wife or husband = 2 | son/daughter = 3 | son/daughter-in-law = 4 | grandchild = 5 | parent = 6 | parent-in-law = 7 | brother/sister = 8 | co-spouse = 9 | other relative = 10 | adopted/foster child = 11 | not related = 12 | niece/nephew by blood = 13 | niece/nephew by marriage = 14 | brother/sister in law = 15 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,14
+v151,sex of household head,male = 1 | female = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v152,age of household head,97+ = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,80
+v153,household has: telephone (land-line),no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+awfactt,all woman factor - total,NA,numeric,0,0,1
+awfactu,all woman factor - urban/rural,NA,numeric,0,0,1
+awfactr,all woman factor - regional,NA,numeric,0,0,1
+awfacte,all woman factor - educational,NA,numeric,0,0,1
+awfactw,all woman factor - wealth index,NA,numeric,0,0,1
+v155,literacy,cannot read at all = 0 | able to read only parts of sentence = 1 | able to read whole sentence = 2 | no card with required language = 3 | blind/visually impaired = 4,"haven_labelled, vctrs_vctr, double",0,0,5
+v156,na - ever participated in a literacy program outside of primary,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v157,frequency of reading newspaper or magazine,not at all = 0 | less than once a week = 1 | at least once a week = 2 | almost every day = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+v158,frequency of listening to radio,not at all = 0 | less than once a week = 1 | at least once a week = 2 | almost every day = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+v159,frequency of watching television,not at all = 0 | less than once a week = 1 | at least once a week = 2 | almost every day = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+v160,toilet facilities shared with other households,no = 0 | yes = 1 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",4172,23.195818970310242,3
+v161,type of cooking fuel,electricity = 1 | solar energy = 2 | liquefied petroleum gas (lpg)/cooking gas = 3 | piped natural gas = 4 | biogas = 5 | alcohol/ethanol = 6 | gasoline/diesel = 7 | kerosene/paraffin = 8 | coal/lignite = 9 | charcoal = 10 | wood = 11 | straw/shrubs/grass = 12 | agricultural crop = 13 | animal dung/waste = 14 | processed biomass (pellets) or woodchips = 15 | garbage/plastic = 16 | sawdust = 17 | no food cooked in house = 95 | other = 96 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,20
+v166,na - result of salt test for iodine,0 ppm (no iodine) = 0 | 7 ppm = 7 | 15 ppm = 15 | 30 ppm = 30 | salt not tested = 994 | no salt = 995 | not a de jure resident = 997,"haven_labelled, vctrs_vctr, double",17986,100,0
+v167,na - number of trips in last 12 months,none = 0 | 90+ = 90,"haven_labelled, vctrs_vctr, double",17986,100,0
+v168,na - away for more than one month in last 12 months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v169a,owns a mobile telephone,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v169b,last 12 months use mobile telephone for financial transactions,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v169c,is respondent's mobile phone a smart phone,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7165,39.83653953074614,2
+v170,has an account in a bank or other financial institution,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v171a,use of internet,"never = 0 | yes, last 12 months = 1 | yes, before last 12 months = 2 | yes, can't establish when = 3","haven_labelled, vctrs_vctr, double",0,0,3
+v171b,frequency of using internet last month,not at all = 0 | less than once a week = 1 | at least once a week = 2 | almost every day = 3,"haven_labelled, vctrs_vctr, double",0,0,4
+v172,respondent state of birth,fct-abuja = 1 | benue = 2 | kogi = 3 | kwara = 4 | nasarawa = 5 | niger = 6 | plateau = 7 | adamawa = 8 | bauchi = 9 | borno = 10 | gombe = 11 | taraba = 12 | yobe = 13 | jigawa = 14 | kaduna = 15 | kano = 16 | katsina = 17 | kebbi = 18 | sokoto = 19 | zamfara = 20 | abia = 21 | anambra = 22 | ebonyi = 23 | enugu = 24 | imo = 25 | akwa ibom = 26 | bayelsa = 27 | cross river = 28 | delta = 29 | edo = 30 | rivers = 31 | ekiti = 32 | lagos = 33 | ogun = 34 | ondo = 35 | osun = 36 | oyo = 37 | outside of nigeria = 96,"haven_labelled, vctrs_vctr, double",0,0,38
+v173,respondent country of birth,algeria = 2 | angola = 3 | benin = 4 | botswana = 5 | burkina faso = 6 | burundi = 7 | cabo verde = 8 | cameroon = 9 | central african republic (car) = 10 | chad = 11 | comoros = 12 | democratic republic of the congo = 13 | republic of the congo = 14 | cote d'ivoire = 15 | djibouti = 16 | egypt = 17 | equatorial guinea = 18 | eritrea = 19 | eswatini = 20 | ethiopia = 21 | gabon = 22 | gambia = 23 | ghana = 24 | guinea = 25 | guinea-bissau = 26 | kenya = 27 | lesotho = 28 | liberia = 29 | libya = 30 | madagascar = 31 | malawi = 32 | mali = 33 | mauritania = 34 | morocco = 35 | mozambique = 36 | namibia = 37 | niger = 38 | rwanda = 39 | sao tome and principe = 40 | senegal = 41 | seychelles = 42 | sierra leone = 43 | somalia = 44 | south africa = 45 | south sudan = 46 | sudan = 47 | tanzania = 48 | togo = 49 | tunisia = 50 | uganda = 51 | zambia = 52 | zimbabwe = 53 | other country = 96,"haven_labelled, vctrs_vctr, double",17843,99.20493717335705,12
+v174m,month move to current place of residence,don't know month = 98,"haven_labelled, vctrs_vctr, double",15315,85.14956076948738,13
+v174y,year move to current place of residence,don't know year = 9998,"haven_labelled, vctrs_vctr, double",15315,85.14956076948738,7
+v175,reason for moving to current place of residence,employment = 1 | education/training = 2 | marriage formation = 3 | family reunification/other family-related reason = 4 | forced displacement = 5 | other = 96,"haven_labelled, vctrs_vctr, double",10260,57.04436784165462,6
+v176,self reported health status,very good = 1 | good = 2 | moderate = 3 | bad = 4 | very bad = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+v177,money put/taken from bank account last 12 months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",12002,66.72967863894141,2
+v190,wealth index combined,poorest = 1 | poorer = 2 | middle = 3 | richer = 4 | richest = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+v191,wealth index factor score combined (5 decimals),NA,numeric,0,0,13433
+v190a,wealth index for urban/rural,poorest = 1 | poorer = 2 | middle = 3 | richer = 4 | richest = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+v191a,wealth index factor score for urban/rural (5 decimals),NA,numeric,0,0,13394
+ml101,type of mosquito bed net(s) slept under last night,no net = 0 | only treated nets = 1 | both treated and untreated nets = 2 | only untreated nets = 3,"haven_labelled, vctrs_vctr, double",0,0,4
+v201,total children ever born,NA,numeric,0,0,17
+v202,sons at home,NA,numeric,0,0,10
+v203,daughters at home,NA,numeric,0,0,9
+v204,sons elsewhere,NA,numeric,0,0,7
+v205,daughters elsewhere,NA,numeric,0,0,7
+v206,sons who have died,NA,numeric,0,0,9
+v207,daughters who have died,NA,numeric,0,0,7
+v208,births in last five years,no births = 0,"haven_labelled, vctrs_vctr, double",0,0,7
+v209,births in past year,no births = 0,"haven_labelled, vctrs_vctr, double",0,0,4
+v210,births in month of interview,NA,numeric,0,0,3
+v211,date of first birth (cmc),NA,numeric,515,2.863338151895919,378
+v212,age of respondent at 1st birth,NA,numeric,515,2.863338151895919,35
+v213,currently pregnant,no or unsure = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v214,duration of current pregnancy in months,NA,numeric,16190,90.01445568775715,10
+v214a,duration of current pregnancy original,weeks: 1 = 101 | weeks: number missing = 199 | months: 1 = 201 | months: number missing = 299,"haven_labelled, vctrs_vctr, double",16190,90.01445568775715,21
+v215,time since last menstrual period,day of interview = 100 | days: 1 = 101 | days: number missing = 199 | weeks: 1 = 201 | weeks: number missing = 299 | months: 1 = 301 | months: number missing = 399 | years: 1 = 401 | years: number missing = 499 | in menopause/had hysterectomy = 994 | before last pregnancy = 995 | never menstruated = 996 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,113
+v216,menstruated in last six weeks,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v217,knowledge of ovulatory cycle,during her period = 1 | after period ended = 2 | middle of the cycle = 3 | before period begins = 4 | at any time = 5 | other = 6 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,7
+v218,number of living children,NA,numeric,0,0,14
+v219,living children + current pregnancy,NA,numeric,0,0,14
+v220,living children + current pregnancy (grouped),6+ = 6,"haven_labelled, vctrs_vctr, double",0,0,7
+v221,marriage to first birth interval (months),negative interval = 996,"haven_labelled, vctrs_vctr, double",908,5.048370955187368,186
+v222,last birth to interview (months),NA,numeric,515,2.863338151895919,166
+v223,completeness of current pregnancy information,month - exact date = 7 | none - date placed = 8,"haven_labelled, vctrs_vctr, double",16190,90.01445568775715,1
+v224,entries in birth history,NA,numeric,0,0,17
+v225,current pregnancy wanted,then = 1 | later = 2 | not at all = 3,"haven_labelled, vctrs_vctr, double",16190,90.01445568775715,3
+v226,time since last period (comp) (months),in menopause = 994 | before last pregnancy = 995 | never menstruated = 996 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,26
+v227,flag for last period,"no flag = 0 | n > interval since birth = 1 | n + amen. > interval = 2 | n, but period not returned = 3 | 95, but no  pregnancy = 4 | 95, but period returned = 5 | 96, but period returned = 6 | n, last period during pregnancy = 7 | 96, had children = 8 | n, period before last pregnancy = 9","haven_labelled, vctrs_vctr, double",0,0,7
+v228,ever had a terminated pregnancy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v229,month pregnancy ended,inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,12
+v230,year pregnancy ended,inconsistent = 9997 | don't know = 9998,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,30
+v231,cmc pregnancy ended,inconsistent = 9997 | don't know = 9998,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,262
+v232,completeness of last termination information,"month, year and day = 0 | month and year = 1 | from calendar = 2 | year = 5 | month = 7 | none = 8","haven_labelled, vctrs_vctr, double",13605,75.6421661292116,6
+v233,months when pregnancy ended,inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,10
+v234,other such pregnancies,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,2
+v235,index last child prior to maternity-health (calendar),no prior child = 0,"haven_labelled, vctrs_vctr, double",0,0,8
+v237,birth between last and interview,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v238,births in last three years,NA,numeric,0,0,5
+v239,pregnancies terminated before calendar beginning,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",13605,75.6421661292116,2
+v240,month of last termination prior to calendar,inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",16585,92.21060825086178,12
+v241,year of last termination prior to calendar,inconsistent = 9997 | don't know = 9998,"haven_labelled, vctrs_vctr, double",16585,92.21060825086178,26
+v242,cmc termination ended prior to calendar,inconsistent = 9997 | don't know = 9998,"haven_labelled, vctrs_vctr, double",16585,92.21060825086178,203
+v243,completeness of last termination date prior to calendar,"day, month and year = 0 | month and year = 1 | from calendar = 2 | year = 5 | month = 7 | none = 8","haven_labelled, vctrs_vctr, double",16585,92.21060825086178,5
+v244,can women get pregnant after birth and before period,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v245,pregnancy losses,NA,numeric,0,0,9
+v246,entries in pregnancy history,NA,numeric,0,0,17
+v247a,collection of menstrual blood: reusable sanitary pads,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247b,collection of menstrual blood: disposable sanitary pads,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247c,collection of menstrual blood: tampons,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247d,collection of menstrual blood: menstrual cup,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247e,collection of menstrual blood: cloth,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247f,collection of menstrual blood: toilet paper,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247g,collection of menstrual blood: cotton wool,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247h,collection of menstrual blood: underwear only,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247i,na - collection of menstrual blood: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v247j,na - collection of menstrual blood: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v247k,na - collection of menstrual blood: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v247l,na - collection of menstrual blood: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v247x,collection of menstrual blood: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v247y,collection of menstrual blood: nothing,"no = 0 | yes, nothing was used = 1","haven_labelled, vctrs_vctr, double",5293,29.428444345602134,2
+v248,able to change in privacy during last menstrual cycle,no = 0 | yes = 1 | away from home during last menstrual period = 2,"haven_labelled, vctrs_vctr, double",5293,29.428444345602134,3
+v249,age at first menstrual period,never menstruated = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,27
+v310,na - living children at first use,NA,numeric,17986,100,0
+v311,na - children at first use (grouped),4+ = 4 | never used = 5,"haven_labelled, vctrs_vctr, double",17986,100,0
+v312,current contraceptive method,not using = 0 | pill = 1 | iud = 2 | injections = 3 | diaphragm = 4 | male condom = 5 | female sterilization = 6 | male sterilization = 7 | periodic abstinence = 8 | withdrawal = 9 | other traditional = 10 | implants/norplant = 11 | prolonged abstinence = 12 | lactational amenorrhea (lam) = 13 | female condom = 14 | foam or jelly = 15 | emergency contraception = 16 | other modern method = 17 | standard days method (sdm) = 18 | specific method 1 = 19 | specific method 2 = 20,"haven_labelled, vctrs_vctr, double",0,0,15
+v313,current use by method type,no method = 0 | folkloric method = 1 | traditional method = 2 | modern method = 3,"haven_labelled, vctrs_vctr, double",0,0,4
+v315,month of start of use of method,NA,numeric,14300,79.50628266429445,12
+v316,year of start of use of method,NA,numeric,14300,79.50628266429445,4
+v317,date of start of use of method (cmc),NA,numeric,14300,79.50628266429445,40
+v318,completeness of information,"month and year - information complete = 1 | year - month imputed, age calculated = 5 | month - date placed = 7 | none - date placed = 8 | from calendar = 9","haven_labelled, vctrs_vctr, double",14300,79.50628266429445,1
+v319,years since sterilization,<2 = 1 | 2-3 = 2 | 4-5 = 3 | 6-7 = 4 | 8-9 = 5 | 10+ = 6,"haven_labelled, vctrs_vctr, double",17963,99.87212276214834,2
+v320,age at sterilization,<25 = 1 | 25-29 = 2 | 30-34 = 3 | 35-39 = 4 | 40-44 = 5 | 45-49 = 6,"haven_labelled, vctrs_vctr, double",17963,99.87212276214834,3
+v321,years since first union at sterilization,"single, before first marriage = 0 | 0-4 = 1 | 5-9 = 2 | 10-14 = 3 | 15-19 = 4 | 20-24 = 5 | 25+ = 6","haven_labelled, vctrs_vctr, double",17963,99.87212276214834,4
+v321a,years since current union at sterilization,"single, before current union, or married only once = 0 | 0-4 = 1 | 5-9 = 2 | 10-14 = 3 | 15-19 = 4 | 20-24 = 5 | 25+ = 6","haven_labelled, vctrs_vctr, double",17963,99.87212276214834,2
+v322,parity at sterilization,5+ = 5,"haven_labelled, vctrs_vctr, double",17963,99.87212276214834,4
+v323,brand of pill used,duofemconfidence = 1 | microgynon = 2 | lofemenal = 3 | neogynon = 4 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",17782,98.86578449905483,6
+v323a,brand of condom used,gold circle = 1 | durex = 2 | rough rider = 3 | twin lotus = 4 | plain condom = 5 | go flex = 6 | kiss = 7 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",17566,97.6648504392305,9
+v325a,na - cost of current method (in currency),free = 9999995 | don't know = 9999998,"haven_labelled, vctrs_vctr, double",17986,100,0
+v326,last source for current users,---public sector--- = 10 | teaching hospital = 11 | federal medical center = 12 | general hospital = 13 | primary health care center = 14 | primary health clinic = 15 | health post = 16 | other public sector = 17 | ---private medical sector--- = 20 | private hospital = 21 | private clinic = 22 | pharmacy = 23 | patent & proprietary medicine vendors = 24 | private doctor = 25 | mobile clinic = 26 | maternity center = 27 | other private medical = 28 | ---ngo medical sector--- = 30 | faith-based hospital = 31 | faith-based clinic = 32 | family planning clinic = 33 | other ngo medical sector = 36 | ---other source--- = 40 | shop = 41 | church = 42 | friend/relative = 43 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",15787,87.77382408539975,21
+v327,last source for users by type,"government hospitals/medical cente/primary health center = 1 | government home/community delivery = 2 | ngo = 3 | private clinic/delivery = 4 | pharmacy = 5 | shop, church, friend, relative = 6 | other = 7 | don't know = 8","haven_labelled, vctrs_vctr, double",15787,87.77382408539975,7
+v337,months of use of current method,all calendar {a core} = 95 | 96+ {b core} = 96 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",14300,79.50628266429445,37
+v359,last method discontinued in last 5 years,pill = 1 | iud = 2 | injections = 3 | diaphragm = 4 | male condom = 5 | female sterilization = 6 | male sterilization = 7 | periodic abstinence = 8 | withdrawal = 9 | other traditional = 10 | implants/norplant = 11 | prolonged abstinence = 12 | lactational amenorrhea (lam) = 13 | female condom = 14 | foam or jelly = 15 | emergency contraception = 16 | other modern method = 17 | standard days method (sdm) = 18 | specific method 1 = 19 | specific method 2 = 20,"haven_labelled, vctrs_vctr, double",14524,80.75169576337152,13
+v360,reason of last discontinuation,"became pregnant = 1 | wanted to become pregnant = 2 | husband disapproved = 3 | side effects = 4 | health concerns = 5 | access, availability = 6 | wanted more effective method = 7 | inconvenient to use = 8 | infrequent sex, husband away = 9 | cost = 10 | fatalistic = 11 | difficult pregnancy, menopause = 12 | marital dissolution = 13 | other = 14 | changes in mesntrual bleeding = 15 | don't know = 98","haven_labelled, vctrs_vctr, double",14535,80.81285444234405,15
+v361,pattern of use,currently using = 1 | used since last birth = 2 | used before last birth = 3 | never used = 4,"haven_labelled, vctrs_vctr, double",0,0,4
+v362,intention to use,in next 12 months = 1 | use later = 2 | unsure about timing = 3 | unsure about use = 4 | does not intend = 5 | never had sex = 6,"haven_labelled, vctrs_vctr, double",3686,20.49371733570555,3
+v363,na - preferred future method,pill = 1 | iud = 2 | injections = 3 | diaphragm = 4 | male condom = 5 | female sterilization = 6 | male sterilization = 7 | periodic abstinence = 8 | withdrawal = 9 | other traditional = 10 | implants/norplant = 11 | prolonged abstinence = 12 | lactational amenorrhea (lam) = 13 | female condom = 14 | foam or jelly = 15 | emergency contraception = 16 | other modern method = 17 | standard days method (sdm) = 18 | specific method 1 = 19 | specific method 2 = 20 | don't know = 98,"haven_labelled, vctrs_vctr, double",17986,100,0
+v364,contraceptive use and intention,using modern method = 1 | using traditional method = 2 | non-user - intends to use later = 3 | does not intend to use = 4 | never had sex = 5,"haven_labelled, vctrs_vctr, double",0,0,4
+v367,wanted last child,wanted then = 1 | wanted later = 2 | wanted no more = 3,"haven_labelled, vctrs_vctr, double",1254,6.972089402868899,3
+v367a,wanted last pregnancy,wanted then = 1 | wanted later = 2 | wanted no more = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+v372,na - shown pill package,package not seen = 0 | package seen = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v372a,na - shown condom package,package not seen = 0 | package seen = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v375a,na - main reason not using a method,"not married = 11 | fertility-related = 20 | not having sex = 21 | infrequent sex = 22 | menopausal, hysterectomy = 23 | subfecund, infecund = 24 | postpartum, breastfeeding = 25 | wants more children = 26 | pregnant = 27 | opposition to use = 30 | respondent opposed = 31 | husband opposed = 32 | others opposed = 33 | religious prohibition = 34 | lack of knowledge = 40 | knows no method = 41 | knows no source = 42 | method-related = 50 | health concerns = 51 | fears side effects = 52 | lack of access = 53 | cost too much = 54 | inconvenient to use = 55 | interferes with body = 56 | other = 96 | don't know = 98","haven_labelled, vctrs_vctr, double",17986,100,0
+v376,na - main reason not to use a method,"not married = 11 | fertility-related = 20 | infrequent sex = 22 | menopausal, hysterectomy = 23 | subfecund, infecund = 24 | wants more children = 26 | opposition to use = 30 | respondent opposed = 31 | husband opposed = 32 | others opposed = 33 | religious prohibition = 34 | lack of knowledge = 40 | knows no method = 41 | knows no source = 42 | method-related = 50 | health concerns = 51 | fears side effects = 52 | lack of access = 53 | cost too much = 54 | inconvenient to use = 55 | interferes with body = 56 | other = 96 | don't know = 98","haven_labelled, vctrs_vctr, double",17986,100,0
+v376a,na - would ever use method if married,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v379,source known for any method,"---public sector--- = 10 | teaching hospital = 11 | federal medical center = 12 | general hospital = 13 | primary health care center = 14 | primary health clinic = 15 | health post = 16 | other public sector = 17 | ---private medical sector--- = 20 | private hospital = 21 | private clinic = 22 | pharmacy = 23 | patent & proprietary medicine vendors = 24 | private doctor = 25 | mobile clinic = 26 | maternity center = 27 | other private medical = 28 | ---ngo medical sector--- = 30 | faith-based hospital = 31 | faith-based clinic = 32 | family planning clinic = 33 | other ngo medical sector = 36 | ---other source--- = 40 | shop = 41 | church = 42 | friend/relative = 43 | knows source, place wasn't asked = 94 | knowledge of source wasn't asked = 95 | other = 96 | don't know = 98","haven_labelled, vctrs_vctr, double",0,0,24
+v380,source known for any method,"government hospitals/medical cente/primary health center = 1 | government home/community delivery = 2 | ngo = 3 | private clinic/delivery = 4 | pharmacy = 5 | shop, church, friend, relative = 6 | other = 7 | don't know = 8","haven_labelled, vctrs_vctr, double",1469,8.167463582786612,8
+v384a,heard family planning on radio last few months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384b,heard family planning on tv last few months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384c,heard family planning in newspaper/magazine last few months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384d,heard family planning by text messages on mobile phone,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384e,"seen about family planning on facebook, twitter, instagram, others",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384f,"seen about family planning on poster, brochure",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384g,"seen about family planning on outdoor sign, billboard",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384h,heard family planning at community meetings events,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v384i,na - heard/seen family planning cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v384j,na - heard/seen family planning cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v384k,na - heard/seen family planning cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v393,visited by fieldworker in last 12 months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v393a,did fieldworker talk about family planning,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",15827,87.99621928166351,2
+v394,visited health facility last 12 months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v395,"at health facility, told of family planning",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",9122,50.71722450795063,2
+v3a00a,na - source of family planning for non-users: government hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00b,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00c,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00d,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00e,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00f,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00g,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00h,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00i,na - source of family planning for non-users: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00j,na - source of family planning for non-users: private hospital/clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00k,na - source of family planning for non-users: pharmacy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00l,na - source of family planning for non-users: private doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00m,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00n,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00o,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00p,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00q,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00r,na - source of family planning for non-users: cs private sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00s,na - source of family planning for non-users: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00t,na - source of family planning for non-users: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00u,na - source of family planning for non-users: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00v,na - source of family planning for non-users: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00w,na - source of family planning for non-users: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00x,na - source of family planning for non-users: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a00y,source of family planning for non-users: no source,no: knows a source = 0 | yes: knows no source = 1,"haven_labelled, vctrs_vctr, double",3686,20.49371733570555,2
+v3a00z,source of family planning for non-users: any source,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3686,20.49371733570555,2
+v3a01,na - told sterilization would mean no more children,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a02,told about side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",15787,87.77382408539975,2
+v3a03,na - told about side effects by health or family planning worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a04,told how to deal with side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",15787,87.77382408539975,2
+v3a05,told about other family planning methods,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",15787,87.77382408539975,2
+v3a06,na - told about other family planning methods by health or family planning worke,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a07,first source for current method,---public sector--- = 10 | teaching hospital = 11 | federal medical center = 12 | general hospital = 13 | primary health care center = 14 | primary health clinic = 15 | health post = 16 | other public sector = 17 | ---private medical sector--- = 20 | private hospital = 21 | private clinic = 22 | pharmacy = 23 | patent & proprietary medicine vendors = 24 | private doctor = 25 | mobile clinic = 26 | maternity center = 27 | other private medical = 28 | ---ngo medical sector--- = 30 | faith-based hospital = 31 | faith-based clinic = 32 | family planning clinic = 33 | other ngo medical sector = 36 | ---other source--- = 40 | shop = 41 | church = 42 | friend/relative = 43 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",15787,87.77382408539975,21
+v3a08a,reason not using: not married,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08b,reason not using: not having sex,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08c,reason not using: infrequent sex,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08d,reason not using: menopausal/hysterectomy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08e,reason not using: subfecund/infecund,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08f,reason not using: postpartum amenorrheic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08g,reason not using: breastfeeding,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08h,reason not using: fatalistic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08i,reason not using: respondent opposed,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08j,reason not using: husband/partner opposed,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08k,reason not using: others opposed,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08l,reason not using: religious prohibition,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08m,reason not using: knows no method,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08n,reason not using: knows no source,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08o,na - reason not using: health concerns,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08p,reason not using: other side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08q,reason not using: lack of access/too far,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08r,reason not using: costs too much,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08s,reason not using: inconvenient to use,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08t,reason not using: interferes with body'??s processes,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08u,reason not using: preferred method not available,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08v,reason not using: no method available,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08w,reason not using: changes in menstrual bleeding,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08aa,reason not using: methods could cause infertility,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08ab,na - reason not using: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08ac,na - reason not using: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08ad,na - reason not using: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08ae,na - reason not using: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08af,na - reason not using: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a08x,reason not using: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a08z,reason not using: don't know,no = 0 | yes: don't know = 1,"haven_labelled, vctrs_vctr, double",10848,60.31357722673191,2
+v3a09a,na - how many pill cycles did get last time,don't know = 998,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a09b,na - how many condoms did get last time,don't know = 998,"haven_labelled, vctrs_vctr, double",17986,100,0
+v3a10,probe for respondent/partner sterilized,"yes, respondent sterilized only = 1 | yes, partner sterilized only = 2 | yes, both sterilized = 3 | no, neither sterilized = 4","haven_labelled, vctrs_vctr, double",5202,28.92249527410208,2
+v3a11,type of injectable based on picture observation,dmpa-sc/sayana press = 1 | needle and syringe = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17349,96.45835649949962,3
+v3a12,person who injected last time,self-injection = 1 | injection given by health care provider = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17766,98.77682642054931,3
+v3a13,used emergency contraception in past 12 months,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v3a14,could switch method if wanted/needed,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",15810,87.90170132325142,2
+v401,last birth a caesarean section,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1254,6.972089402868899,2
+v404,currently breastfeeding,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v405,currently amenorrheic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v406,currently abstaining,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v407,na - number of times breastfed during night,on demand = 96,"haven_labelled, vctrs_vctr, double",17986,100,0
+v408,na - number of times breastfed during day,on demand = 96,"haven_labelled, vctrs_vctr, double",17986,100,0
+v415,drank from bottle with nipple yesterday/last night,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",2190,12.1761369954409,3
+v416,na - heard of oral rehydration,never heard of = 0 | used ors = 1 | heard of ors = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v417,entries in pregnancy and postnatal care roster,NA,numeric,0,0,5
+v418,entries in immunization roster,NA,numeric,0,0,5
+v418a,entries in child health roster,NA,numeric,0,0,6
+v419,entries in height/weight roster,NA,numeric,0,0,6
+v420,measurer's code,NA,numeric,10548,58.64561325475369,67
+v421,assistant measurer's code,assistant not used = 9999,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,53
+v426,when child put to breast,immediately = 0 | within first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299,"haven_labelled, vctrs_vctr, double",2264,12.587568108528856,42
+v437,respondent's weight in kilograms (1 decimal),not present = 9994 | refused = 9995 | other = 9996,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,669
+v438,respondent's height in centimeters (1 decimal),not present = 9994 | refused = 9995 | other = 9996,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,352
+v445,body mass index,flagged cases = 9998,"haven_labelled, vctrs_vctr, double",10673,59.34059824307795,1730
+v447,result of measurement - height/weight,measured = 0 | not present = 3 | refused = 4 | other = 6 | no measurement found in household = 7,"haven_labelled, vctrs_vctr, double",0,0,5
+v446a,height/age standard deviation (new who) (women age 15-19),height out of plausible limits = 9996 | age in days out of plausible limits = 9997 | flagged cases = 9998,"haven_labelled, vctrs_vctr, double",17619,97.95952407428,202
+v446d,bmi/age standard deviation (new who) (women age 15-19),height out of plausible limits = 9996 | age in days out of plausible limits = 9997 | flagged cases = 9998,"haven_labelled, vctrs_vctr, double",17619,97.95952407428,209
+v447a,women's age in years (from household questionnaire),NA,numeric,10548,58.64561325475369,35
+v452a,under age 18 (from household questionnaire),under age 18 = 1 | age 18 or older = 2,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,2
+v452b,line number of parent/caretaker,not in household = 0,"haven_labelled, vctrs_vctr, double",17960,99.85544312242855,5
+v452c,read consent statement - hemoglobin,granted = 1 | parent/other responsible refused = 2 | respondent refused = 3 | adult/parent not present = 4 | minor not present = 5,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,4
+v453,hemoglobin level (g/dl - 1 decimal),not present = 994 | refused = 995 | other = 996,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,109
+v454,currently pregnant (from household questionnaire),no/don't know = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,2
+v455,result of measurement - hemoglobin,measured = 0 | not present = 3 | refused = 4 | other = 6 | no measurement found in household = 7,"haven_labelled, vctrs_vctr, double",10548,58.64561325475369,4
+v456,hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),NA,numeric,10731,59.66307127766041,107
+v456a,hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal) (new who),NA,numeric,10731,59.66307127766041,104
+v457,anemia level,severe = 1 | moderate = 2 | mild = 3 | not anemic = 4,"haven_labelled, vctrs_vctr, double",10731,59.66307127766041,4
+v457a,anemia level (new who),severe = 1 | moderate = 2 | mild = 3 | not anemic = 4,"haven_labelled, vctrs_vctr, double",10731,59.66307127766041,4
+v458,na - agrees to referral - anemia,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v459,have mosquito bed net for sleeping (from household questionnaire),no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v460,children under 5 slept under mosquito bed net last night (household questionnair,no = 0 | all children = 1 | some children = 2 | no net in household = 3,"haven_labelled, vctrs_vctr, double",1417,7.8783498276437225,4
+v461,respondent slept under mosquito bed net,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v462,na - washed hands before preparing last meal,no = 0 | yes = 1 | never prepared meal = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v463a,smokes cigarettes,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463b,smokes pipe full of tobacco,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463c,chews tobacco,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463d,snuffs by nose,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463e,smokes kreteks,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,1
+v463f,"smokes cigars, cheroots or cigarillos",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463g,smokes water pipe,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463h,snuff by mouth,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463i,chews betel quid with tobacco,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,1
+v463j,na - smokes/uses country specific,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v463k,na - smokes/uses country specific,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v463l,na - smokes/uses country specific,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v463x,smokes/uses other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v463z,does not use cigarettes and tobacco,"no = 0 | yes, smokes nothing = 1","haven_labelled, vctrs_vctr, double",0,0,2
+v463aa,frequency smokes cigarettes,does not smoke = 0 | every day = 1 | some days = 2,"haven_labelled, vctrs_vctr, double",0,0,3
+v463ab,frequency currently uses other type of tobacco,does not smoke = 0 | every day = 1 | some days = 2,"haven_labelled, vctrs_vctr, double",0,0,3
+v464,number of cigarettes in last 24 hours,80+ = 80 | don't know = 98,"haven_labelled, vctrs_vctr, double",17978,99.95552096074725,3
+v466,"na - when child is seriously ill, can decide whether medical treatment sought",no = 0 | yes = 1 | depends = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467a,na - getting medical help for self: know where to go,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467b,getting medical help for self: getting permission to go,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v467c,getting medical help for self: getting money needed for treatment,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v467d,getting medical help for self: distance to health facility,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v467e,na - getting medical help for self: having to take transport,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467f,getting medical help for self: not wanting to go alone,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v467g,na - getting medical help for self: concern no female health provider,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467h,na - getting medical help for self: concern no provider,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467i,na - getting medical help for self: concern no drugs available,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467j,na - getting medical help for self: cs,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467k,na - getting medical help for self: cs,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467l,na - getting medical help for self: cs,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v467m,na - getting medical help for self: cs,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v468,record for last birth,see specific questions = 0 | last birth only = 1 | all births in last 5 years = 2,"haven_labelled, vctrs_vctr, double",0,0,1
+v471a,"na - woman had tinned, powdered or fresh milk",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v471b,na - woman had tea or coffee,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v471c,woman had any other liquid,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v471cs,woman other liquid - sweetened,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17069,94.90159012565329,3
+v471d,woman had sodas/malt/sports/energy drinks,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v471e,"woman had fruit juice, fruit-flavored drinks",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v471f,na - woman had cs liquid,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v471g,na - woman had cs liquid,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v471h,na - woman had cs liquid,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v471i,na - woman had cs liquid,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472a,woman had other vegetables,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472b,"woman had sausages, hot dogs, frankfurters, ham, bacon, salami, canned food",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472c,"woman had nuts, seeds",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472d,woman had any insects,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472e,"woman had porridge, bread, rice, noodles, pasta",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472f,"woman had plantains, white potatoes, yams, manioc cassava, or other tubers",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472g,woman had eggs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472h,"woman had any other meat (beef, pork, lamb, chicken, etc)",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472i,"woman had pumpkin, carrots, squash, sweet potatoes (yellow or orange inside)",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472j,woman had any dark green leafy vegetables,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472k,"woman had mangoes, papayas, other vitamin a fruits",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472l,woman had any other fruits,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472m,"woman had liver, heart, other organs",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472n,woman had fish or shellfish,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472o,"woman had food made from beans, peas, lentils",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472p,"woman had cheese, yogurt, other milk products",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472q,"na - woman had oil, fats, butter, products made of them",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472r,"woman had cakes, candies, pastries, sweet biscuits, chin chin, puff, etc",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472s,woman had any other food,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472t,"woman had chips, crisps, french fries, fried dough, instant noodles",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472u,woman had red palm oil,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472v,"woman had sweetened tea, coffee or herbal drinks",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472w,"woman had sweets, chocolates, ice cream, or sesame brittle",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v472wa,na - woman had cs foods,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472wb,na - woman had cs foods,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472wc,na - woman had cs foods,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472wd,na - woman had cs foods,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v472we,na - woman had cs foods,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v473a,na - read consent statement - hiv,granted = 1 | parent/other responsible refused = 2 | respondent refused = 3 | adult/parent not present = 4 | minor not present = 5 | sample not tested/lost/not enough dbs = 6,"haven_labelled, vctrs_vctr, double",17986,100,0
+v473b,na - result of measurement - hiv,blood taken = 1 | not present = 2 | refused = 3 | sample not tested/lost/damaged/insufficient = 4 | not enough dbs to complete protocol = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,100,0
+v477,na - number of injections in last 12 months,none = 0 | 90+ = 90 | don't know = 98,"haven_labelled, vctrs_vctr, double",17986,100,0
+v478,na - number of injections administered by a health worker,none = 0 | 90+ = 90 | don't know = 98,"haven_labelled, vctrs_vctr, double",17986,100,0
+v479,na - place of injection by health worker,public sector = 10 | government hospital = 11 | government health center = 12 | other public sector = 16 | private sector = 20 | private hospital/clinic/doctor = 21 | dental clinic/office = 22 | pharmacy = 23 | office or home of nurse/health worker = 24 | other private sector = 26 | other non-medical = 30 | respondent's home = 31 | other = 96,"haven_labelled, vctrs_vctr, double",17986,100,0
+v480,"na - syringe and needle from new, unopened package",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481,covered by health insurance,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481a,health insurance type: mutual/community organization,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481b,health insurance type: provided by employer,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481c,health insurance type: social security,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481d,health insurance type: private/commercially purchased,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481e,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481f,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481g,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481h,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481x,health insurance type: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v482a,na - arrange care of biological children under age 18,no = 0 | yes = 1 | unsure = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v482b,na - primary caregiver of children under age 18,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v482c,na - arrange care of non-biological children < 18,no = 0 | yes = 1 | unsure = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v483a,minutes to nearest healthcare facility,600+ = 600,"haven_labelled, vctrs_vctr, double",0,0,99
+v483b,mode of transportation to nearest healthcare facility,---motorized--- = 10 | car/truck = 11 | public bus = 12 | motorcycle/scooter = 13 | boat with motor = 14 | ---not motorized--- = 20 | animal-drawn cart = 21 | bicycle = 22 | boat without motor = 23 | walking = 24 | keke napep (tricycle) = 25 | other = 96,"haven_labelled, vctrs_vctr, double",0,0,10
+v484a,breasts examined for cancer by health care provider,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v484b,ever tested for cervical cancer by health care provider,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v485a,number of days respondent drank alcoholic drinks in the past month,did not have even one drink = 0 | every day/almost every day = 95 | never have consumed alcohol = 96,"haven_labelled, vctrs_vctr, double",0,0,33
+v485b,number of alcoholic drinks per day,40+ = 40,"haven_labelled, vctrs_vctr, double",16631,92.46636272656511,19
+v501,current marital status,never in union = 0 | married = 1 | living with partner = 2 | widowed = 3 | divorced = 4 | no longer living together/separated = 5,"haven_labelled, vctrs_vctr, double",0,0,6
+v502,currently/formerly/never in union,never in union = 0 | currently in union/living with a man = 1 | formerly in union/living with a man = 2,"haven_labelled, vctrs_vctr, double",0,0,3
+v503,number of unions,once = 1 | more than once = 2,"haven_labelled, vctrs_vctr, double",589,3.274769264983876,2
+v504,currently residing with husband/partner,living with her = 1 | staying elsewhere = 2,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,2
+v505,number of other wives,no other wives = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,8
+v506,respondent's rank among wives,don't know = 98,"haven_labelled, vctrs_vctr, double",13671,76.00911820304681,8
+v507,month of first cohabitation,NA,numeric,589,3.274769264983876,12
+v508,year of first cohabitation,NA,numeric,589,3.274769264983876,38
+v509,date of first cohabitation (cmc),NA,numeric,589,3.274769264983876,409
+v510,completeness of date information in v509,month and year - information complete = 1 | month and age - year imputed = 2 | year and age - month imputed = 3 | year - age/month imputed = 5 | age - year/month imputed = 6 | month - age/year imputed = 7 | none - all imputed = 8,"haven_labelled, vctrs_vctr, double",589,3.274769264983876,4
+v511,age at first cohabitation,NA,numeric,589,3.274769264983876,35
+v507a,month of current cohabitation,NA,numeric,16902,93.97309018125209,12
+v508a,year of current cohabitation,NA,numeric,16902,93.97309018125209,30
+v509a,date of current cohabitation (cmc),NA,numeric,16902,93.97309018125209,228
+v510a,completeness of date information in v509a,month and year - information complete = 1 | month and age - year imputed = 2 | year and age - month imputed = 3 | year - age/month imputed = 5 | age - year/month imputed = 6 | month - age/year imputed = 7 | none - all imputed = 8,"haven_labelled, vctrs_vctr, double",16902,93.97309018125209,3
+v511a,age at current cohabitation,NA,numeric,16902,93.97309018125209,31
+v512,years since first cohabitation,NA,numeric,589,3.274769264983876,38
+v513,cohabitation duration (grouped),never married = 0 | 0-4 = 1 | 5-9 = 2 | 10-14 = 3 | 15-19 = 4 | 20-24 = 5 | 25-29 = 6 | 30+ = 7,"haven_labelled, vctrs_vctr, double",0,0,8
+v525,age at first sex,not had sex = 0 | at first union = 96 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,30
+v527,time since last sex,<1 day ago = 100 | days: 1 = 101 | days: number missing = 199 | weeks: 1 = 201 | weeks: number missing = 299 | months: 1 = 301 | months: number missing = 399 | years: 1 = 401 | years: number missing = 499 | within last 4 weeks = 995 | before last birth = 996 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,75
+v528,time since last sex (in days),31+ days = 31 | within last 4 weeks = 95 | before last birth = 96 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,29
+v529,time since last sex (in months),within last 4 weeks = 995 | before last birth = 996 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",0,0,16
+v530,flag for v529,"no flag = 0 | n > interval since birth = 1 | n + abstinence > interval = 2 | n, but sex not res. = 3 | 96, but no birth = 4 | 96, but currently pregnant = 5 | 96, but resumed sex = 6 | n, last sex before pregnancy = 7 | n, inconsistent 4 weeks = 8 | n, sex before last birth = 9","haven_labelled, vctrs_vctr, double",0,0,5
+v531,age at first sex (imputed),not had sex = 0 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,31
+v532,flag for v531,"no flag = 0 | after interview = 1 | after conception >= 1 year = 2 | after conception < 1 year = 3 | at marriage, but never married = 4 | at marriage, but after conception = 5 | after marriage = 6","haven_labelled, vctrs_vctr, double",0,0,4
+v535,ever been married or in union,no = 0 | formerly married = 1 | lived with a man = 2,"haven_labelled, vctrs_vctr, double",16922,94.08428777938397,3
+v536,recent sexual activity,never had sex = 0 | active in last 4 weeks = 1 | not active in last 4 weeks - postpartum abstinence = 2 | not active in last 4 weeks - not postpartum abstinence = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+v537,months of abstinence,60+ = 60 | before last birth = 96 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",13575,75.47536973201379,37
+v538,na - how previous marriage or union ended,death/widowhood = 1 | divorce = 2 | separation = 3,"haven_labelled, vctrs_vctr, double",17986,100,0
+v539,na - person who received most of late husband's property,respondent = 1 | other wife = 2 | spouse's children = 3 | spouse's family = 4 | other = 6 | no property = 7,"haven_labelled, vctrs_vctr, double",17986,100,0
+v540,na - respondent received any of late husband's assets or valuables,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v541,na - intends to wait until marriage to have sex,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v542,has a marriage certificate for current marriage/union,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v543a,"marriage certificate from church, mosque or other religious institution",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v543b,marriage certificate from civil authority,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v543c,other document from religious institution,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v543d,other document from civil authority,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v543e,na - marriage document: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v543f,na - marriage document: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v543g,na - marriage document: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v543x,other marriage document:,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,3
+v544,current marriage ever registered with civil authority,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3854,21.427777160013346,3
+v602,fertility preference,have another = 1 | undecided = 2 | no more = 3 | sterilized (respondent or partner) = 4 | declared infecund = 5 | never had sex = 6,"haven_labelled, vctrs_vctr, double",0,0,5
+v603,preferred waiting time for birth of a/another child,"wanted now = 100 | months: 1 = 101 | months: number missing = 199 | years: 1 = 201 | years: number missing = 299 | after marriage = 993 | soon, now = 994 | other, non-numeric = 996 | inconsistent = 997 | don't know = 998","haven_labelled, vctrs_vctr, double",5208,28.955854553541645,49
+v604,preferred waiting time for birth of a/another child (grouped),<12 months = 0 | 1 year = 1 | 2 years = 2 | 3 years = 3 | 4 years = 4 | 5 years = 5 | 6+ years = 6 | non-numeric = 7 | don't know = 8,"haven_labelled, vctrs_vctr, double",5208,28.955854553541645,9
+v605,desire for more children,"wants within 2 years = 1 | wants after 2+ years = 2 | wants, unsure timing = 3 | undecided = 4 | wants no more = 5 | sterilized (respondent or partner) = 6 | declared infecund = 7 | never had sex = 8","haven_labelled, vctrs_vctr, double",0,0,7
+v613,ideal number of children,non-numeric response = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,24
+v614,ideal number of children (grouped),6+ = 6 | non-numeric response = 7,"haven_labelled, vctrs_vctr, double",0,0,8
+v616,time for future birth,wanted now = 100 | months: 1 = 101 | months: number missing = 199 | years: 1 = 201 | years: number missing = 299 | after marriage = 993 | soon/now = 994 | can't get pregnant = 995 | other = 996 | don't know = 998,"haven_labelled, vctrs_vctr, double",5194,28.87801623484933,50
+v621,husband's desire for children,both want same = 1 | husband wants more = 2 | husband wants fewer = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",1087,6.0435894584676975,4
+v623,exposure,"fecund = 0 | pregnant = 1 | postpartum amenorrheic = 2 | infecund, menopausal = 3","haven_labelled, vctrs_vctr, double",0,0,4
+v624,unmet need,"never had sex = 0 | unmet need for spacing = 1 | unmet need for limiting = 2 | using for spacing = 3 | using for limiting = 4 | spacing failure = 5 | limiting failure = 6 | no unmet need = 7 | not married and no sex in last 30 days = 8 | infecund, menopausal = 9","haven_labelled, vctrs_vctr, double",44,0.24463471589013674,9
+v625,exposure (definition 2),"fecund = 0 | pregnant = 1 | postpartum amenorrheic = 2 | infecund, menopausal = 3","haven_labelled, vctrs_vctr, double",0,0,4
+v626,unmet need (definition 2),"never had sex = 0 | unmet need for spacing = 1 | unmet need for limiting = 2 | using for spacing = 3 | using for limiting = 4 | spacing failure = 5 | limiting failure = 6 | no unmet need = 7 | not married and no sex in last 30 days = 8 | infecund, menopausal = 9","haven_labelled, vctrs_vctr, double",0,0,9
+v625a,exposure to need for contraception (definition 3),"fecund = 0 | pregnant = 1 | postpartum amenorrheic = 2 | infecund, menopausal = 3","haven_labelled, vctrs_vctr, double",0,0,4
+v626a,unmet need for contraception (definition 3),"never had sex = 0 | unmet need for spacing = 1 | unmet need for limiting = 2 | using for spacing = 3 | using for limiting = 4 | no unmet need = 7 | not married and no sex in last 30 days = 8 | infecund, menopausal = 9","haven_labelled, vctrs_vctr, double",0,0,7
+v627,ideal number of boys,other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,14
+v628,ideal number of girls,other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,14
+v629,ideal number of either sex,other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,23
+v631,na - problem if became pregnant,big problem = 1 | small problem = 2 | no problem = 3 | says she can't get pregnant/not having sex = 4,"haven_labelled, vctrs_vctr, double",17986,100,0
+v632,decision maker for using contraception,respondent = 1 | husband/partner = 2 | joint decision = 3 | someone else = 4 | other = 6,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v632a,na - decision maker for not using contraception,"mainly respondent = 1 | mainly husband, partner = 2 | joint decision = 3 | other = 6","haven_labelled, vctrs_vctr, double",17986,100,0
+v633a,na - reason for not having sex: husband has sti,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v633b,reason for not having sex: husband has other women,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v633c,na - reason for not having sex: recent birth,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v633d,"na - reason for not having sex: tired, not in mood",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v633e,na - reason for not having sex: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v633f,na - reason for not having sex: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v633g,na - reason for not having sex: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v634,na - husband knows that respondent is using contraception,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v635,respondent opinion compared to husband's on use of contraception,more important = 1 | equally important = 2 | less important = 3,"haven_labelled, vctrs_vctr, double",12888,71.6557322361837,3
+v636,husband or family member pressured respondent to become pregnant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,2
+v701,husband/partner's education level,no education = 0 | primary = 1 | secondary = 2 | higher = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v702,husband/partner's highest year of education (at level in v701),no years completed at level v701 = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",7394,41.109752029356166,9
+v704,husband/partner's occupation,"not working and didn't work in last 12 months = 0 | professional, technical and related workers = 1 | administrative and managerial workers = 2 | office/administrative support workers = 3 | sales and related workers = 4 | service workers = 5 | installations, maintenance and repair workers = 6 | agricultural, animal husbandry, forestry, fishermen/hunters = 7 | production, construction and extractions workers = 8 | transportation and material moving workers = 9 | other = 96 | don't know = 99998","haven_labelled, vctrs_vctr, double",1064,5.915712220616035,12
+v704a,husband/partner worked in last 7 days/12 months,didn't work last 12 months = 0 | worked last 7 days = 1 | worked last 12 months = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,4
+v705,husband/partner's occupation (grouped),did not work = 0 | professional/technical/managerial = 1 | clerical = 2 | sales = 3 | agricultural - self employed = 4 | agricultural - employee = 5 | household and domestic = 6 | services = 7 | skilled manual = 8 | unskilled manual = 9 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,10
+v714,respondent currently working,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v714a,"respondent has a job, but currently absent",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",10294,57.233403758478815,2
+v715,husband/partner's total number of years of education,inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,22
+v716,respondent's occupation,"not working and didn't work in last 12 months = 0 | professional, technical and related workers = 1 | administrative and managerial workers = 2 | office/administrative support workers = 3 | sales and related workers = 4 | service workers = 5 | installations, maintenance and repair workers = 6 | agricultural, animal husbandry, forestry, fishermen/hunters = 7 | production, construction and extractions workers = 8 | transportation and material moving workers = 9 | other = 96 | don't know = 99998","haven_labelled, vctrs_vctr, double",0,0,11
+v717,respondent's occupation (grouped),not working = 0 | professional/technical/managerial = 1 | clerical = 2 | sales = 3 | agricultural - self employed = 4 | agricultural - employee = 5 | household and domestic = 6 | services = 7 | skilled manual = 8 | unskilled manual = 9 | other = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,9
+v719,"respondent works for family, others, self",for family member = 1 | for someone else = 2 | self-employed = 3,"haven_labelled, vctrs_vctr, double",6516,36.22817747136662,3
+v721,na - respondent works at home or away,at home = 1 | away = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+v729,husband/partner's educational attainment,no education = 0 | incomplete primary = 1 | complete primary = 2 | incomplete secondary = 3 | complete secondary = 4 | higher = 5 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,7
+v730,husband/partner's age,96+ = 96 | don't know = 98,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,69
+v731,respondent worked in last 12 months,"no = 0 | in the past year = 1 | currently working = 2 | have a job, but on leave last 7 days = 3","haven_labelled, vctrs_vctr, double",0,0,4
+v732,respondent employed all year/seasonal,all year = 1 | seasonal = 2 | occasional = 3,"haven_labelled, vctrs_vctr, double",6516,36.22817747136662,3
+v739,person who usually decides how to spend respondent's earnings,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5,"haven_labelled, vctrs_vctr, double",8612,47.881685755587675,4
+v740,na - type of land where respondent works,own land = 0 | family land = 1 | someone else's land = 2 | rented land = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+v741,type of earnings from respondent's work,not paid = 0 | cash only = 1 | cash and in-kind = 2 | in-kind only = 3,"haven_labelled, vctrs_vctr, double",6516,36.22817747136662,4
+v743a,person who usually decides on: respondent's health care,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v743b,person who usually decides on: large household purchases,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v743c,na - person who usually decides on: household purchases for daily needs,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,100,0
+v743d,person who usually decides on: visits to family or relatives,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v743e,na - person who usually decides on: food to be cooked each day,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,100,0
+v743f,person who usually decides on: what to do with money husband earns,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6 | husband/partner has no earnings = 7,"haven_labelled, vctrs_vctr, double",1231,6.844212165017235,5
+v744a,beating justified if wife goes out without telling husband,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v744b,beating justified if wife neglects the children,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v744c,beating justified if wife argues with husband,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v744d,beating justified if wife refuses to have sex with husband,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v744e,beating justified if wife burns the food,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+v745a,owns a house alone or jointly,does not own = 0 | alone only = 1 | jointly with husband/partner only = 2 | jointly with someone else only = 3 | jointly with husband/partner and someone else = 4 | both alone and jointly = 5,"haven_labelled, vctrs_vctr, double",0,0,6
+v745b,owns land alone or jointly,does not own = 0 | alone only = 1 | jointly with husband/partner only = 2 | jointly with someone else only = 3 | jointly with husband/partner and someone else = 4 | both alone and jointly = 5,"haven_labelled, vctrs_vctr, double",0,0,6
+v745c,title deed on house own by respondent,"does not have a title deed = 0 | has a title deed and respondent on title = 1 | has a title deed but respondent not on title = 2 | has a title deed, don't know if respondent on title = 3 | don't know if has a title deed = 8","haven_labelled, vctrs_vctr, double",16084,89.42510841765818,5
+v745d,title deed on land own by respondent,"does not have a title deed = 0 | has a title deed and respondent on title = 1 | has a title deed but respondent not on title = 2 | has a title deed, don't know if respondent on title = 3 | don't know if has a title deed = 8","haven_labelled, vctrs_vctr, double",15966,88.76904258868008,5
+v746,respondent earns more than husband/partner,more than him = 1 | less than him = 2 | about the same = 3 | husband/partner doesn't bring in money = 4 | don't know = 8,"haven_labelled, vctrs_vctr, double",8612,47.881685755587675,5
+pidxb,index to birth history,termination (not in birth history) = 0,"haven_labelled, vctrs_vctr, double",0,0,5
+pord,pregnancy order number,NA,numeric,0,0,17
+p0,pregnancy is multiple,single birth = 0 | 1st of multiple = 1 | 2nd of multiple = 2 | 3rd of multiple = 3 | 4th of multiple = 4 | 5th of multiple = 5,"haven_labelled, vctrs_vctr, double",0,0,4
+p1,month of pregnancy outcome,NA,numeric,0,0,12
+p2,year of pregnancy outcome,NA,numeric,0,0,5
+p3,date of end of pregnancy (cmc),NA,numeric,0,0,41
+p4,sex of child,male = 1 | female = 2,"haven_labelled, vctrs_vctr, double",1993,11.080840653841877,2
+p5,child is alive,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1993,11.080840653841877,2
+p6,age at death,died on day of birth = 100 | days: 1 = 101 | days: number missing = 199 | months: 1 = 201 | months: number missing = 299 | years: 1 = 301 | years: number missing = 399 | inconsistent = 997 | don't know = 998,"haven_labelled, vctrs_vctr, double",16909,94.01200934059824,55
+p7,"age at death (months, imputed)",NA,numeric,16909,94.01200934059824,25
+p8,current age of child,NA,numeric,3070,17.068831313243635,3
+p9,child lives with whom,respondent = 0 | father = 1 | other relative = 2 | someone else = 3 | lives elsewhere = 4,"haven_labelled, vctrs_vctr, double",3070,17.068831313243635,2
+p10,completeness of information,"month, year and day = 0 | month and year - information complete = 1 | month and age - year imputed = 2 | year and age - month imputed = 3 | year and age - year ignored = 4 | year - age/month imputed = 5 | age - year/month imputed = 6 | month - age/year imputed = 7 | none - all imputed = 8","haven_labelled, vctrs_vctr, double",0,0,2
+p11,preceding pregnancy interval (months),NA,numeric,3503,19.476259312798845,191
+p12,succeeding pregnancy interval (months),NA,numeric,15422,85.74446791949293,34
+p13,flag for age at death,"no flag = 0 | > interview = 1 | < breastfeeding = 2 | < age supplemented = 3 | < first breastfed = 4 | < last vaccination = 5 | outside range = 6 | imputed, units given = 7 | imputed, no units = 8","haven_labelled, vctrs_vctr, double",16909,94.01200934059824,3
+p15,other pregnancies between pregnancies,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+p16,child's line number in household,not listed in household = 0,"haven_labelled, vctrs_vctr, double",3070,17.068831313243635,29
+p17,day of pregnancy outcome,NA,numeric,0,0,31
+p18,century day code of end of pregnancy (cdc),NA,numeric,0,0,1212
+p19,months since pregnancy outcome,NA,numeric,0,0,36
+p20,duration of pregnancy in months,NA,numeric,0,0,10
+p21,duration of pregnancy,NA,numeric,0,0,33
+p30,pregnancy outcome declared by respondent,born alive = 1 | born dead = 2 | miscarriage = 3 | abortion = 4,"haven_labelled, vctrs_vctr, double",0,0,4
+p31,"baby cried, moved or breathed",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17669,98.23751806960969,2
+p32,pregnancy outcome reclassified,born alive = 1 | born dead = 2 | miscarriage = 3 | abortion = 4,"haven_labelled, vctrs_vctr, double",0,0,4
+midx,index to birth history,not a live birth = 0,"haven_labelled, vctrs_vctr, double",0,0,5
+midxp,index to pregnancy history,NA,numeric,0,0,5
+m1,number of tetanus injections before birth,received no injection = 0 | 7+ = 7 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,9
+m1a,number of tetanus injections before pregnancy,received no injection = 0 | 7+ = 7 | don't know = 8,"haven_labelled, vctrs_vctr, double",11161,62.053819637495835,9
+m1b,na - month of last tetanus injection before pregnancy,inconsistent = 97 | don't know month = 98,"haven_labelled, vctrs_vctr, double",17986,100,0
+m1c,na - year of last tetanus injection before pregnancy,inconsistent = 9997 | don't know year = 9998,"haven_labelled, vctrs_vctr, double",17986,100,0
+m1d,years ago received last tetanus injection before pregnancy,NA,numeric,16644,92.53864116535084,37
+m1e,last tetanus injection before pregnancy (cmc),can't be determined = 9996,"haven_labelled, vctrs_vctr, double",16644,92.53864116535084,212
+m2a,prenatal: doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2b,prenatal: nurse/midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2c,prenatal: community health extension worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2d,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2e,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2f,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2g,prenatal: traditional birth attendant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2h,prenatal: auxiliary midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2i,prenatal: comm health influencers/promoters/field workers,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2j,na - prenatal: cs other person,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2k,prenatal: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2l,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2m,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2n,prenatal: no one,no: some care = 0 | yes: no care = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m3a,assistance: doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3b,assistance: nurse/midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3c,assistance: community health extension worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3d,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m3e,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m3f,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m3g,assistance: traditional birth attendant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3h,assistance: auxiliary midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3i,assistance: relative/friend,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3j,assistance: comm health influencers/promoters/field workers,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3k,assistance: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m3l,na - assistance: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m3m,na - assistance: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m3n,assistance: no one,no: some assistance = 0 | yes: no assistance = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m4,duration of breastfeeding,"ever breastfed, not currently breastfeeding = 93 | never breastfed = 94 | still breastfeeding = 95 | breastfed until died = 96 | inconsistent = 97 | don't know = 98","haven_labelled, vctrs_vctr, double",1993,11.080840653841877,3
+m5,months of breastfeeding,"ever breastfed, not currently breastfeeding = 93 | never breastfed = 94 | inconsistent = 97 | don't know = 98","haven_labelled, vctrs_vctr, double",1993,11.080840653841877,38
+m6,duration of amenorrhea,period not returned = 96 | inconsistent = 97 | unknown = 98,"haven_labelled, vctrs_vctr, double",2564,14.255532080507061,2
+m7,months of amenorrhea,inconsistent = 97 | unknown = 98,"haven_labelled, vctrs_vctr, double",2564,14.255532080507061,37
+m8,duration of abstinence,still abstaining = 96 | inconsistent = 97 | unknown = 98,"haven_labelled, vctrs_vctr, double",2564,14.255532080507061,2
+m9,months of abstinence,inconsistent = 97 | unknown = 98,"haven_labelled, vctrs_vctr, double",2564,14.255532080507061,37
+m10,wanted pregnancy when became pregnant,then = 1 | later = 2 | no more = 3,"haven_labelled, vctrs_vctr, double",0,0,3
+m11,desired time would have waited,months: 1 = 101 | months: number missing = 199 | years: 1 = 201 | years: number missing = 299 | don't know = 998,"haven_labelled, vctrs_vctr, double",15843,88.08517736016903,30
+m13,timing of 1st antenatal check (months),don't know = 98,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,10
+m13a,timing of 1st antenatal check (original),weeks: 1 = 101 | weeks: number missing = 199 | months: 1 = 201 | months: number missing = 299 | don't know = 998,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,26
+m14,number of antenatal visits during pregnancy,no antenatal visits = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,22
+m15,place of delivery,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,21
+m17,delivery by caesarean section,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m17a,na - timing on decision for caesarean section,before labor started = 1 | after labor started = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+m18,size of child at birth,very large = 1 | larger than average = 2 | average = 3 | smaller than average = 4 | very small = 5 | don't know = 8,"haven_labelled, vctrs_vctr, double",1993,11.080840653841877,6
+m19,birth weight in kilograms (3 decimals),not weighed at birth = 9996 | don't know = 9998,"haven_labelled, vctrs_vctr, double",1993,11.080840653841877,75
+m19a,weight at birth/recall,not weighed = 0 | from written card = 1 | from mother's recall = 2 | don't know = 8 | special answers = 9,"haven_labelled, vctrs_vctr, double",1993,11.080840653841877,4
+m27,na - flag for breastfeeding,no flag = 0 | > interval = 1 | > interval by 1 month = 2 | > age at death = 3 | during pregnancy in calendar = 4,"haven_labelled, vctrs_vctr, double",17986,100,0
+m28,na - flag for amenorrhea,no flag = 0 | > interval = 1 | > interval by 1 month = 2 | during pregnancy in calendar = 4,"haven_labelled, vctrs_vctr, double",17986,100,0
+m29,na - flag for abstinence,no flag = 0 | > interval = 1 | > interval by 1 month = 2 | during pregnancy in calendar = 4,"haven_labelled, vctrs_vctr, double",17986,100,0
+m34,when child put to breast,immediately = 0 | within first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299,"haven_labelled, vctrs_vctr, double",2834,15.756699655287445,42
+m35,na - number of times breastfed during previous night,on demand = 96,"haven_labelled, vctrs_vctr, double",17986,100,0
+m36,na - number of times breastfed during previous day,on demand = 96,"haven_labelled, vctrs_vctr, double",17986,100,0
+m38,drank from bottle with nipple yesterday/last night,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3070,17.068831313243635,3
+m39a,"did eat any solid, semi-solid or soft foods yesterday",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",8000,44.47903925275214,2
+m39,"number of times ate solid, semi-solid or soft food yesterday",none = 0 | 7+ = 7 | don't know = 8,"haven_labelled, vctrs_vctr, double",8000,44.47903925275214,9
+m42a,na - during pregnancy: weighed,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42b,na - during pregnancy: height measured,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42c,during pregnancy: blood pressure taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42d,during pregnancy: urine sample taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42e,during pregnancy: blood sample taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42f,during pregnancy: listen to baby's heartbeat,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42g,during pregnancy: talk about foods to eat,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42h,during pregnancy: talk about breastfeeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42i,during pregnancy: ask about vaginal bleeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,3
+m42j,na - during pregnancy: talk about when baby is due,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42k,na - during pregnancy: pay attention to baby movements,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42l,na - during pregnancy: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42m,na - during pregnancy: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m42n,na - during pregnancy: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m43,na - told about pregnancy complications,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m44,na - told where to go for pregnancy complications,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m45,"during pregnancy, given or bought iron tablets/syrup",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m46,days tablets or syrup taken,were not taken = 0 | don't know = 998,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,234
+m47,"na - during pregnancy, had difficulty with daylight vision",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m48,"na - during pregnancy, had difficulty with night blindness",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49a,during pregnancy took: sp/fansidar for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m49b,na - during pregnancy took: chloroquine for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49c,na - during pregnancy took: cs drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49d,na - during pregnancy took: cs drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49e,na - during pregnancy took: cs drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49f,na - during pregnancy took: cs drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49g,na - during pregnancy took: cs drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49x,na - during pregnancy took: other drug for malaria,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49z,na - during pregnancy took: don't know,no = 0 | yes: don't know which drug taken = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m49y,na - during pregnancy took: no drug for malaria,"no = 0 | yes, took no drug = 1 | don't know = 8","haven_labelled, vctrs_vctr, double",17986,100,0
+m54,na - received vitamin a dose in first 2 months after delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m55,given child anything other than breast milk,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",2834,15.756699655287445,2
+m57a,antenatal care: respondent's home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57b,antenatal care: other home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57c,na - antenatal care: cs home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57d,na - antenatal care: cs home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57e,antenatal care: teaching hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57f,antenatal care: federal medical center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57g,antenatal care: general hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57h,antenatal care: primary health care center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57i,antenatal care: primary health clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57j,antenatal care: health post,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57k,antenatal care: other public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57l,na - antenatal care: cs public health,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57m,antenatal care: private hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57n,antenatal care: private clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57o,antenatal care: pharmacy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57p,antenatal care: patent & proprietary medicine vendors (ppmv),no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57q,antenatal care: private doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57r,antenatal care: mobile clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57s,antenatal care: maternity center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57t,antenatal care: other private medical sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57na,antenatal care: faith-based hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nb,antenatal care: faith-based clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nc,antenatal care: other ngo medical sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nd,na - antenatal care: ngo medical,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57ne,na - antenatal care: ngo medical,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57u,na - antenatal care: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57v,na - antenatal care: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57x,antenatal care: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m60,drugs for intestinal parasites during pregnancy,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m61,time spent at place of delivery,hours: 0 = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | weeks: 1 = 301 | weeks: number missing = 399 | don't know = 998,"haven_labelled, vctrs_vctr, double",11453,63.67730457022128,64
+m62,respondent's health checked after delivery before discharge,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",11453,63.67730457022128,2
+m63,how long after delivery respondent's health check before discharge took place,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",12773,71.01634604692538,39
+m64,who checked respondent's health before discharge,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",12773,71.01634604692538,6
+m66,respondent's health checked after discharge/delivery at home,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m67,how long after delivery respondent's health check (after discharge/home delivery,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,42
+m68,who checked respondent's health after discharge/delivery at home,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,7
+m69,where respondent's check after discharge/delivery at home took place,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,19
+m70,child's health checked after discharge/delivery at home,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m71,how long after delivery child's health check (after discharge/home delivery) too,immediately/in first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | weeks: 1 = 301 | weeks: number missing = 399 | don't know = 998,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,50
+m72,who checked child's health after discharge/home delivery,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,7
+m73,where child's health check after discharge/home delivery took place,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,18
+m74,child's health checked before discharge,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",11606,64.52796619593016,3
+m75,how long after delivery child's health check before discharge took place,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",13030,72.44523518292006,38
+m76,who checked child's health before discharge,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",13030,72.44523518292006,7
+m77,was child put on mother's chest and bare skin after birth,"no = 0 | put on chest, touching bare skin = 1 | put on chest, no touching of bare skin = 2 | put on chest, dk/missing on touching of bare skin = 3 | don't know = 8","haven_labelled, vctrs_vctr, double",3946,21.939286111419992,5
+m77a,time after birth baby was put on bare skin,immediately = 0 | 24+ = 24 | don't know = 98,"haven_labelled, vctrs_vctr, double",15424,85.75558767930612,15
+m78a,during first 2 days health provider: examine cord,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m78b,during first 2 days health provider: measure temperature,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m78c,during first 2 days health provider: signs baby needs medical attentions,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m78d,during first 2 days health provider: counsel on breastfeeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m78e,during first 2 days health provider: observe breastfeeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m78f,during first 2 days health provider: measure blood pressure,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m78g,during first 2 days health provider: discuss vaginal bleeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m78h,during first 2 days health provider: discuss family planning,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,3
+m78i,na - during first 2 days health provider: tell where to get help with breastfeed,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78j,na - during first 2 days health provider: ask if have problems with urination,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78k,na - during first 2 days health provider: ask if have pain,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78l,na - during first 2 days health provider: ask if feel sad or depressed,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78m,na - during first 2 days health provider: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78n,na - during first 2 days health provider: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78o,na - during first 2 days health provider: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m78p,na - during first 2 days health provider: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m80,pregnancy outcome for this section,most recent live birth = 1 | prior live birth = 2 | most recent stillbirth = 3 | prior stillbirth = 4 | miscarriage/abortion = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+m81a,place obtained iron tablets/syrup: teaching hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81b,place obtained iron tablets/syrup: federal medical center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81c,place obtained iron tablets/syrup: general hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81d,place obtained iron tablets/syrup: primary health care center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81e,place obtained iron tablets/syrup: primary health clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81f,place obtained iron tablets/syrup: health post,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81g,place obtained iron tablets/syrup: other public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81h,na - place obtained iron tablets/syrup: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81i,na - place obtained iron tablets/syrup: cs public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81j,place obtained iron tablets/syrup: private hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81k,place obtained iron tablets/syrup: pharmacy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81l,place obtained iron tablets/syrup: private doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81m,place obtained iron tablets/syrup: private clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81n,place obtained iron tablets/syrup: patent & proprietary medicine vendors (ppmv),no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81o,place obtained iron tablets/syrup: mobile clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81p,place obtained iron tablets/syrup: maternity center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81q,place obtained iron tablets/syrup: other private medical center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81r,na - place obtained iron tablets/syrup: cs private medical,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81na,place obtained iron tablets/syrup: faith-based hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81nb,place obtained iron tablets/syrup: faith-based clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81nc,place obtained iron tablets/syrup: other ngo medical sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81nd,na - place obtained iron tablets/syrup: cs ngo,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81ne,na - place obtained iron tablets/syrup: cs ngo,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81s,place obtained iron tablets/syrup: shop,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81t,place obtained iron tablets/syrup: market,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81u,place obtained iron tablets/syrup: mass distribution campaign,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m81v,na - place obtained iron tablets/syrup: cs other sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81w,na - place obtained iron tablets/syrup: cs other sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m81x,place obtained iron tablets/syrup: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8428,46.85866785277438,2
+m82,na - during pregnancy received food/cash through assistance program,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+ml0,type of mosquito bed net(s) child slept under last night,no net = 0 | only treated nets = 1 | both treated and untreated nets = 2 | only untreated nets = 3,"haven_labelled, vctrs_vctr, double",5191,28.861336595129544,4
+ml1,number of times took fansidar during pregnancy,don't know = 98,"haven_labelled, vctrs_vctr, double",8998,50.02779939953297,49
+ml2,source of antimalarial during pregnancy,antenatal visit = 1 | another facility visit = 2 | community health extension worker = 3 | other source = 6,"haven_labelled, vctrs_vctr, double",8998,50.02779939953297,4
+mnb1,time after birth child was bathed,immediately = 0 | within first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | don't know = 998,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,44
+mnb3,device used to cut the cord,razor blade = 1 | knife = 2 | scissors = 3 | other = 6 | don't know = 8,"haven_labelled, vctrs_vctr, double",10326,57.41131991548982,5
+mnb4,was the device new or had it been used before,new = 1 | used before = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",10408,57.86723006783053,3
+mnb5,was the device boiled before used to cut the cord,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",10408,57.86723006783053,3
+mnb6,anything applied to the cord from the time it was cut until it fell off,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+mnb7a,what was applied to the cord: chlorhexidine,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7b,"what was applied to the cord: other antiseptic (alcohol, spirit, gentian violet)",no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7c,what was applied to the cord: mustard oil,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7d,what was applied to the cord: ash,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7e,what was applied to the cord: animal dung,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7f,what was applied to the cord: spirit,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7g,what was applied to the cord: gentian violet,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7h,what was applied to the cord: other antiseptic (alcohol etc.),no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7i,what was applied to the cord: toothpaste,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7j,what was applied to the cord: vaseline,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7x,what was applied to the cord: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb7z,what was applied to the cord: don't know,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",8814,49.004781496719666,2
+mnb10,was chlorhexidine applied to the cord at any time,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",11347,63.08795730012232,3
+mnb11,time after cord was cut chlorhexidine was first applied,immediately = 0 | within first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | don't know = 998,"haven_labelled, vctrs_vctr, double",15257,84.82708773490492,37
+mnb12,days chlorhexidine was applied to the cord,7+ = 7 | don't know = 8,"haven_labelled, vctrs_vctr, double",15257,84.82708773490492,8
+mh3a,na - during antenatal care discussed: where to deliver baby,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3b,"na - during antenatal care discussed: if wanted a relative, friend, neighbor dur",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3c,na - during antenatal care discussed: transportation to delivery place,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3d,na - during antenatal care discussed: source of funds for delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3e,na - during antenatal care discussed: asking someone as blood donor if necessary,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3f,na - during antenatal care discussed: find healthcare provider to deliver child,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3g,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3h,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3i,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh5,na - healthcare provider measure blood pressure before delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh6,na - while in labor wanted to have someone by your side,no = 0 | yes = 1 | no labor/planned caesarean section = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh7,na - while in labor the person you wanted by your side was with you,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh8,na - while in labor how much time the person you wanted by your side was allowed,some of the time = 1 | most of the time = 2 | all of the time = 3,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh9,na - reason the person you wanted by your side was not with you during labor,facility did not allow = 1 | absent for other reason = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh10,na - during delivery wanted to have someone by your side,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh11,na - during delivery the person you wanted by your side was with you,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh12,na - during delivery how much time the person you wanted by your side was allowe,some of the time = 1 | most of the time = 2 | all of the time = 3,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh13,na - reason the person you wanted by your side was not with you during delivery,facility did not allow = 1 | absent for other reason = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh14,na - was an instrument used to help pull out the baby,"no = 0 | yes, forceps = 1 | yes, suction = 2 | yes, don't know what instrument = 3 | don't know = 8","haven_labelled, vctrs_vctr, double",17986,100,0
+mh15,na - while in labor or delivery did feel ignored/neglected by facility staff,facility did not allow = 1 | absent for other reason = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh16,na - while in labor or delivery did have privacy,"no = 0 | yes, separate room = 1 | yes, curtains = 2 | yes, other = 6 | don't know = 8","haven_labelled, vctrs_vctr, double",17986,100,0
+mh17a,na - at delivery place did healthcare providers: treated you with respect,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17b,na - at delivery place did healthcare providers: explained examinations/procedur,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17c,na - at delivery place did healthcare providers: took best care of you,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17d,na - at delivery place did healthcare providers: cs,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17e,na - at delivery place did healthcare providers: cs,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh18a,na - during stay at health facility: shared bed with other patient,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh18b,na - during stay at health facility: rest/sleep on floor without mattress,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh18c,na - during stay at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh18d,na - during stay at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh19,na - during stay at health facility were denied medical services for lack of mon,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh20,na - were delayed or prevented to leave facility because of lack of payment,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21a,na - during stay staff at health facility: slap you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21b,na - during stay staff at health facility: hit or punch you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21c,na - during stay staff at health facility: physically threaten you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21d,na - during stay staff at health facility: physically mistreat or harm you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21e,na - during stay staff at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh21f,na - during stay staff at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22a,na - during stay staff at health facility: shout at you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22b,na - during stay staff at health facility: say or do something to humiliate you,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22c,na - during stay staff at health facility: verbally threaten,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22d,na - during stay staff at health facility: verbally mistreat you in any other wa,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22e,na - during stay staff at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh22f,na - during stay staff at health facility: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh23,na - did health facility have toilet/latrine for patients,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh24,na - at any time wanted to use toilet/latrine but was not working,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh25,na - where did baby stay in first two days after birth,same room = 1 | separate room = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+s107,province/state lived before moved to place of interview,fct-abuja = 1 | benue = 2 | kogi = 3 | kwara = 4 | nasarawa = 5 | niger = 6 | plateau = 7 | adamawa = 8 | bauchi = 9 | borno = 10 | gombe = 11 | taraba = 12 | yobe = 13 | jigawa = 14 | kaduna = 15 | kano = 16 | katsina = 17 | kebbi = 18 | sokoto = 19 | zamfara = 20 | abia = 21 | anambra = 22 | ebonyi = 23 | enugu = 24 | imo = 25 | akwa ibom = 26 | bayelsa = 27 | cross river = 28 | delta = 29 | edo = 30 | rivers = 31 | ekiti = 32 | lagos = 33 | ogun = 34 | ondo = 35 | osun = 36 | oyo = 37 | abroad = 96,"haven_labelled, vctrs_vctr, double",10260,57.04436784165462,38
+s114,highest educational level,primary = 1 | secondary = 2 | higher = 3,"haven_labelled, vctrs_vctr, double",7315,40.670521516735235,3
+s115,highest class at that level,less than one class = 0 | class 1 = 1 | class 2 = 2 | class 3 = 3 | class 4 = 4 | class 5 = 5 | class 6 = 6 | class 7 = 7 | class 8 = 8,"haven_labelled, vctrs_vctr, double",7315,40.670521516735235,9
+sstate,state (codes are as per sample frame),sokoto = 1 | zamfara = 2 | katsina = 3 | jigawa = 4 | yobe = 5 | borno = 6 | adamawa = 7 | gombe = 8 | bauchi = 9 | kano = 10 | kaduna = 11 | kebbi = 12 | niger = 13 | fct = 14 | nasarawa = 15 | plateau = 16 | taraba = 17 | benue = 18 | kogi = 19 | kwara = 20 | oyo = 21 | osun = 22 | ekiti = 23 | ondo = 24 | edo = 25 | anambra = 26 | enugu = 27 | ebonyi = 28 | cross river = 29 | akwa ibom = 30 | abia = 31 | imo = 32 | rivers = 33 | bayelsa = 34 | delta = 35 | lagos = 36 | ogun = 37 | abroad = 96,"haven_labelled, vctrs_vctr, double",0,0,37
+szone,zone (for final report),north central = 1 | north east = 2 | north west = 3 | south east = 4 | south south = 5 | south west = 6,"haven_labelled, vctrs_vctr, double",0,0,6
+sstate1,state (for final report),fct-abuja = 1 | benue = 2 | kogi = 3 | kwara = 4 | nasarawa = 5 | niger = 6 | plateau = 7 | adamawa = 8 | bauchi = 9 | borno = 10 | gombe = 11 | taraba = 12 | yobe = 13 | jigawa = 14 | kaduna = 15 | kano = 16 | katsina = 17 | kebbi = 18 | sokoto = 19 | zamfara = 20 | abia = 21 | anambra = 22 | ebonyi = 23 | enugu = 24 | imo = 25 | akwa ibom = 26 | bayelsa = 27 | cross river = 28 | delta = 29 | edo = 30 | rivers = 31 | ekiti = 32 | lagos = 33 | ogun = 34 | ondo = 35 | osun = 36 | oyo = 37,"haven_labelled, vctrs_vctr, double",0,0,37
+s816a,heard/seen family planning message: as for me and my partner,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s816b,heard/seen family planning message: unspaced children,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s816c,heard/seen family planning message: well-spaced children,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s816d,heard/seen family planning message: it's not too late,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s816e,heard/seen family planning message: why is your wife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s816x,heard/seen family planning message: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",11825,65.74557989547426,2
+s916a,number of accumulated hours per day spent on unpaid domestic work,less than 6 hours = 1 | between 6-12 hours = 2 | more than 12 hours = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,4
+s916b,domestic work is the role of women,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+s1035b,knows husband/partner's hiv status,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,2
+s1045e,offered hiv test,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15505,86.20593795174024,3
+s1047a,stis prevent women from getting pregnant in future,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+s1047b,stis prevent men from fathering children in future,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+s1109a,heard of tb,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109ba,way of tb spread: through coughing and sneezing,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bb,way of tb spread: through sharing utensil,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bc,way of tb spread: through touching a person with tb,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bd,way of tb spread: through food,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109be,way of tb spread: through sexual contact,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bf,way of tb spread: through mosquito bites,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bx,way of tb spread: through other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109bz,way of tb spread: don't know,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109ca,sign and symtoms of tb: persistent cough (2 weeks or more),no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cb,sign and symtoms of tb: coughing with sputum,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cc,sign and symtoms of tb: weight loss,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cd,sign and symtoms of tb: coughing blood,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109ce,sign and symtoms of tb: fever,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cf,sign and symtoms of tb: night sweats,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cg,sign and symtoms of tb: shortness of breath,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109ch,sign and symtoms of tb: loss of appetite,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109ci,sign and symtoms of tb: chest pain,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cj,sign and symtoms of tb: fatigue/tiredness,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cx,sign and symtoms of tb: other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109cz,sign and symtoms of tb: don't know,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+s1109d,tb can be cured,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109e,would keep it secret if family go tb,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109fa,belief about tb: individual with tb should be admitted until disease is over,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109fb,belief about tb: individuals with tb should be supported to take drugs,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109fc,belief about tb: will not marry from family with tb,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109fd,belief about tb: will not use same toilet as someone with tb,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109fe,belief about tb: people with tb brought it on themselves,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1109ff,belief about tb: having tb is a punishment from god,disagree = 0 | agree = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",6376,35.449794284443456,3
+s1112a,heard of viral hepatitis b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1112b,tested for viral hepatitis b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7821,43.48382074947181,2
+s1112c,result of test,negative = 0 | positive = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",16325,90.76503947514733,2
+s1112d,treated for viral hepatitis b in last year,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17880,99.41065272990105,2
+s1112e,vaccinated for hep b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",7821,43.48382074947181,3
+s1112ea,heard of hep c,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1112eb,tested for hep c in last 12 months,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",14187,78.87801623484933,2
+s1112ec,result of test,negative = 0 | positive = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17321,96.30267986211499,2
+s1112ed,treated for hep c in last 12 months,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17968,99.8999221616813,2
+s1112ga,tested during antenatal care: hep b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,3
+s1112gb,tested during antenatal care: hep c,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,3
+s1112ha,result of test: hep b,negative = 0 | positive = 1 | not tested = 5 | no result/don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,4
+s1112hb,result of test: hep c,negative = 0 | positive = 1 | not tested = 5 | no result/don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,4
+s1112j,child vaccinated or treated for hep b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17888,99.45513176915378,2
+s1112k,heard of covid-19,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,3
+s1112la,source of information: community health workers,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lb,source of information: other frontline workers from i/ngo,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lc,source of information: radio program,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ld,source of information: sms/text messaging,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112le,source of information: health facility,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lf,source of information: photo counseling,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lg,source of information: television,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lh,source of information: mobile ring tone,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112li,source of information: afmily/relatives/friends/neighbors,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lj,source of information: social media,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lx,source of information: other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112lz,source of information: don't know,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ma,symptoms of covid-19: fever,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mb,symptoms of covid-19: cough,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mc,symptoms of covid-19: shortness of breath and breathing difficulties,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112md,symptoms of covid-19: muscle pain,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112me,symptoms of covid-19: headache,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mf,symptoms of covid-19: loss of taste or smell,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mg,symptoms of covid-19: diarrhea,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mh,symptoms of covid-19: common cold and running nose,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mx,symptoms of covid-19: other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112mz,symptoms of covid-19: don't know,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112na,risks for spread: essential worker,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nb,risks for spread: immunocompromised,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nc,risks for spread: not wearing a mask,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nd,risks for spread: poor room ventilation,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ne,risks for spread: senior citizen,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nf,risks for spread: not being vaccinated,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ng,risks for spread: not maintaining social distance,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nx,risks for spread: other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112nz,risks for spread: don't know,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oa,measures taken to reduce risk:  wearing as mask,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ob,measures taken to reduce risk: washing hands properly,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oc,measures taken to reduce risk: using sanitizer,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112od,measures taken to reduce risk: maintaining distance,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oe,measures taken to reduce risk: avoid touching eyes/nose/mouth,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112of,measures taken to reduce risk: practice respiratory hygiene,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112og,measures taken to reduce risk: get vaccinated,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oh,measures taken to reduce risk: focus on cleanliness,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oi,measures taken to reduce risk: drink hot water (with or without herbs),no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112ox,measures taken to reduce risk: other,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112oz,measures taken to reduce risk: did nothing,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112p,received covid-19 vaccination,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112q,type of covid-19 vaccination received,pfizer = 1 | astrazeneca/oxford = 2 | moderna = 3 | johnson & johnson = 4 | don't know = 8,"haven_labelled, vctrs_vctr, double",13801,76.73190259090403,5
+s1112r,number of doses of covid-19 vaccination received,one dose = 1 | two doses = 2 | more than 2 doses = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",13801,76.73190259090403,4
+s1112s,willing to be vaccinated against covid-19,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",5366,29.8343155787835,2
+s1112t,bitten by snake,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,2
+s1112u,sought health care attention after bite,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17914,99.59968864672523,2
+s1112v,source of care sought after bite,---public sector--- = 10 | teaching hospital = 11 | federal medical center = 12 | general hospital = 13 | primary health care center = 14 | primary health clinic = 15 | health post = 16 | other public sector = 17 | ---private medical sector--- = 20 | private hospital = 21 | private clinic = 22 | pharmacy = 23 | patent and proprietary medicine vendors (ppmv) = 24 | private doctor = 25 | mobile clinic = 26 | maternity center = 27 | other private medical = 28 | ---ngo medical sector--- = 30 | faith-based hospital = 31 | faith-based clinic = 32 | other ngo medical sector = 36 | ---other source--- = 40 | shop = 41 | church = 42 | friend/relative = 43 | other = 96,"haven_labelled, vctrs_vctr, double",17939,99.73868564439007,9
+s1112w,given snake antivenom,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17939,99.73868564439007,2
+sgc6aa,type of procedure performed: removal of clitoris with partial or total excision,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15406,85.65550984098743,3
+sgc6ab,type of procedure performed: infibulation,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15406,85.65550984098743,3
+sgc6ac,type of procedure performed: scraping of tissue surrounding the vaginal orifice,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15406,85.65550984098743,3
+sgc6ad,type of procedure performed: cutting of the vagina,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15406,85.65550984098743,3
+sgc6b,ever used corrosive substance or herbs into vagina,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",15406,85.65550984098743,3
+s311a,intends to use fp after end of pregnancy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",16190,90.01445568775715,2
+idx92,index to birth history,not a live birth = 0,"haven_labelled, vctrs_vctr, double",0,0,5
+idx92p,index to pregnancy history,NA,numeric,0,0,5
+s228ad,day of death,don't know day = 98,"haven_labelled, vctrs_vctr, double",16184,89.98109640831758,32
+s228am,month of death,january = 1 | february = 2 | march = 3 | april = 4 | may = 5 | june = 6 | july = 7 | august = 8 | september = 9 | october = 10 | november = 11 | december = 12 | don't know month = 98,"haven_labelled, vctrs_vctr, double",16184,89.98109640831758,13
+s228ay,year of death,NA,numeric,16184,89.98109640831758,33
+idx94,index to birth history,not a live birth = 0,"haven_labelled, vctrs_vctr, double",0,0,5
+idx94p,index to pregnancy history,NA,numeric,0,0,5
+s418aa,antenatal care fp counselling: all methods appropriate,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ab,antenatal care fp counselling: possible side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ac,antenatal care fp counselling: lam,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ad,antenatal care fp counselling: transition from lam to other modern methods,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ae,antenatal care fp counselling: spacing pregnancies,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418af,antenatal care fp counselling: fertility intentions,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ag,antenatal care fp counselling: return to facility,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s473aa,"during first two days, feeling nervous and anxious",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+s473ab,"during first two days, feeling depressed or hopeless",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+s473ac,"during first two days, losing interest or pleasure in doing anything",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+s473ad,"during first two days, thinking of committing suicide",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+s474aa,pnc fp counselling: all methods appropriate,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474ab,pnc fp counselling: possible side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474ac,pnc fp counselling: lam,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474ad,pnc fp counselling: transition from lam to other modern methods,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474ae,pnc fp counselling: spacing pregnancies,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474af,pnc fp counselling: fertility intentions,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+s474ag,pnc fp counselling: return to facility,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2

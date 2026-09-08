@@ -1,0 +1,41 @@
+equity_dimension,indicator,lowest_group,lowest_percent,lowest_ci_low,lowest_ci_high,lowest_group_n,highest_group,highest_percent,absolute_gap_pp,relative_ratio,comparison_status
+Wealth quintile,Complete continuum,poorest,4.63,3.45,5.82,2755,richest,65.79,61.16,14.21,Report
+Education,Complete continuum,no education,6.45,5.37,7.53,4513,higher,69.66,63.21,10.8,Report
+Zone,Complete continuum,north west,10.35,8.65,12.04,3249,south west,63.6,53.25,6.14,Report
+Age group,Complete continuum,15-19,12.41,9.12,15.69,654,30-34,29.92,17.51,2.41,Report
+Residence,Complete continuum,rural,13.34,12.06,14.62,6428,urban,43.34,30,3.25,Report
+Wealth quintile,Eight or more ANC contacts,poorest,2.82,2.01,3.63,2755,richest,52.37,49.55,18.57,Report
+Education,Eight or more ANC contacts,no education,3.24,2.48,4,4513,higher,45.93,42.69,14.18,Report
+Zone,Eight or more ANC contacts,north east,3.98,2.84,5.12,2268,south west,68.82,64.84,17.29,Report
+Residence,Eight or more ANC contacts,rural,8.26,7.18,9.34,6428,urban,31.13,22.87,3.77,Report
+Age group,Eight or more ANC contacts,15-19,8.49,5.69,11.28,654,30-34,20.42,11.93,2.41,Report
+Wealth quintile,Four or more ANC contacts,poorest,27.54,24.59,30.49,2755,richest,90.57,63.03,3.29,Report
+Education,Four or more ANC contacts,no education,31.83,29.25,34.41,4513,higher,90.62,58.79,2.85,Report
+Age group,Four or more ANC contacts,15-19,40.16,35.01,45.3,654,30-34,58.53,18.37,1.46,Report
+Zone,Four or more ANC contacts,north west,40.77,37.39,44.15,3249,south west,88.01,47.24,2.16,Report
+Residence,Four or more ANC contacts,rural,41.83,39.38,44.28,6428,urban,73.54,31.71,1.76,Report
+Wealth quintile,Health facility delivery,poorest,17.35,14.81,19.89,2763,richest,89.52,72.17,5.16,Report
+Education,Health facility delivery,no education,17.95,16.04,19.86,4528,higher,90.07,72.12,5.02,Report
+Zone,Health facility delivery,north west,21.5,18.79,24.22,3256,south east,87.89,66.39,4.09,Report
+Residence,Health facility delivery,rural,28.74,26.58,30.9,6478,urban,66.16,37.42,2.3,Report
+Age group,Health facility delivery,45-49,30.66,22.55,38.78,146,35-39,48.2,17.54,1.57,Report
+Wealth quintile,Maternal PNC within 2 days,poorest,22.05,19.49,24.6,2766,richest,81.58,59.53,3.7,Report
+Education,Maternal PNC within 2 days,no education,22.12,20.25,23.99,4534,higher,82.86,60.74,3.75,Report
+Zone,Maternal PNC within 2 days,north west,24.89,22.33,27.46,3259,south west,78.51,53.62,3.15,Report
+Age group,Maternal PNC within 2 days,45-49,30.21,21.63,38.8,146,30-34,48.17,17.96,1.59,Report
+Residence,Maternal PNC within 2 days,rural,30.33,28.47,32.19,6510,urban,63.34,33.01,2.09,Report
+Wealth quintile,Mother and newborn both received PNC within 2 days,poorest,18.49,16.05,20.94,2766,richest,75.07,56.58,4.06,Report
+Education,Mother and newborn both received PNC within 2 days,no education,18.54,16.79,20.29,4534,higher,77.5,58.96,4.18,Report
+Zone,Mother and newborn both received PNC within 2 days,north west,19.81,17.49,22.14,3259,south west,74.37,54.56,3.75,Report
+Age group,Mother and newborn both received PNC within 2 days,15-19,25.96,21.26,30.66,666,30-34,42.96,17,1.65,Report
+Residence,Mother and newborn both received PNC within 2 days,rural,26.45,24.68,28.21,6510,urban,57.24,30.79,2.16,Report
+Education,Newborn PNC within 2 days,no education,22.07,20.2,23.94,4534,higher,80.96,58.89,3.67,Report
+Wealth quintile,Newborn PNC within 2 days,poorest,22.45,19.84,25.07,2766,richest,79.56,57.11,3.54,Report
+Zone,Newborn PNC within 2 days,north west,23.89,21.44,26.34,3259,south west,79.13,55.24,3.31,Report
+Age group,Newborn PNC within 2 days,45-49,29.93,21.45,38.42,146,30-34,46.41,16.48,1.55,Report
+Residence,Newborn PNC within 2 days,rural,30.18,28.31,32.04,6510,urban,62.01,31.83,2.05,Report
+Wealth quintile,Skilled birth attendance,poorest,15.55,13.46,17.64,2766,richest,91.52,75.97,5.89,Report
+Education,Skilled birth attendance,no education,18.05,16.22,19.87,4534,higher,90.85,72.8,5.03,Report
+Zone,Skilled birth attendance,north west,25.02,22.04,27.99,3259,south east,88.14,63.12,3.52,Report
+Residence,Skilled birth attendance,rural,30.03,27.83,32.24,6510,urban,69.67,39.64,2.32,Report
+Age group,Skilled birth attendance,15-19,31.92,27.02,36.81,666,35-39,50.29,18.37,1.58,Report

@@ -1,0 +1,14 @@
+file_name,row_count,column_count
+adjusted_odds_ratios.csv,19,11
+cohort_demographic_profile.csv,24,4
+cohort_flow.csv,3,2
+continuum_pathway_distribution.csv,5,3
+equity_gap_summary.csv,40,22
+model_outcome_summary.csv,1,6
+mother_newborn_pnc_crosstab.csv,4,4
+sensitivity_adjusted_models.csv,57,12
+sensitivity_prevalence_comparison.csv,3,9
+state_indicator_estimates_public.csv,296,16
+unadjusted_odds_ratios.csv,19,11
+weighted_equity_estimates_public.csv,192,17
+weighted_national_indicator_estimates.csv,14,9

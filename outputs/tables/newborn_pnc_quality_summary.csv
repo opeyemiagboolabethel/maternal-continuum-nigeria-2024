@@ -1,0 +1,11 @@
+quality_check,result
+Analytical cohort size,10522
+Newborn PNC indicator non-missing,10522
+Reported check before discharge,3710
+Reported check after discharge/home delivery,1782
+Qualifying PNC before discharge within 2 days,3643
+Qualifying PNC after discharge/home delivery within 2 days,1465
+Newborn PNC within 2 days,4765
+Invalid newborn PNC values,0
+Unclassified newborn timing codes,0
+Combined PNC without qualifying component,0

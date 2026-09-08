@@ -1,0 +1,11 @@
+quality_check,result
+Analytical cohort size,10522
+Complete continuum non-missing,10236
+Complete ANC4-skilled birth-paired PNC continuum,2702
+Complete ANC8-skilled birth-paired PNC continuum,1187
+Complete ANC4-facility delivery-paired PNC continuum,2689
+Invalid complete-continuum values,0
+Invalid continuum scores,0
+Complete-continuum component mismatches,0
+Continuum score-three mismatches,0
+Unclassified continuum stages,0

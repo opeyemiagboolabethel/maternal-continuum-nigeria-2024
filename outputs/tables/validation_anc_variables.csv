@@ -1,0 +1,24 @@
+variable,variable_label,value_labels,r_class,total_n,nonmissing_n,missing_n,missing_percent,unique_nonmissing_values
+m2a,prenatal: doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2b,prenatal: nurse/midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2c,prenatal: community health extension worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2d,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2e,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2f,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2g,prenatal: traditional birth attendant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2h,prenatal: auxiliary midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2i,prenatal: comm health influencers/promoters/field workers,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2j,na - prenatal: cs other person,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2k,prenatal: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m2l,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2m,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m2n,prenatal: no one,no: some care = 0 | yes: no care = 1,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,2
+m13,timing of 1st antenatal check (months),don't know = 98,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,10
+m14,number of antenatal visits during pregnancy,no antenatal visits = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",17986,14341,3645,20.265762259535194,22
+m42c,during pregnancy: blood pressure taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42d,during pregnancy: urine sample taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42e,during pregnancy: blood sample taken,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42f,during pregnancy: listen to baby's heartbeat,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42g,during pregnancy: talk about foods to eat,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42h,during pregnancy: talk about breastfeeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3
+m42i,during pregnancy: ask about vaginal bleeding,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,10447,7539,41.9159346158123,3

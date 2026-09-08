@@ -1,0 +1,9 @@
+indicator_variable,indicator,national_percent
+anc_4plus,Four or more ANC contacts,53.65
+anc_8plus,Eight or more ANC contacts,16.78
+skilled_birth,Skilled birth attendance,45.09
+facility_delivery,Health facility delivery,42.93
+mother_pnc_2days,Maternal PNC within 2 days,42.87
+newborn_pnc_2days,Newborn PNC within 2 days,42.27
+paired_pnc_2days,Mother and newborn both received PNC within 2 days,38.14
+complete_continuum,Complete continuum,24.52

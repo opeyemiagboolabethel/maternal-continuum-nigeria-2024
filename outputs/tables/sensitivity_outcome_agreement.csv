@@ -1,0 +1,4 @@
+comparison,weighted_agreement_percent,confidence_interval_low_percent,confidence_interval_high_percent
+Primary vs ANC8 definition,86.45,85.45,87.45
+Primary vs facility-delivery definition,97.09,96.64,97.54
+ANC8 vs facility-delivery definition,85.64,84.63,86.64

@@ -1,0 +1,41 @@
+equity_dimension,indicator,highest_group,highest_percent,lowest_group,lowest_percent,absolute_gap_pp,relative_ratio,relative_shortfall_percent,disparity_rank,comparison_status
+Education,Complete continuum,higher,69.66,no education,6.45,63.21,10.8,90.74,1,Report
+Wealth quintile,Complete continuum,richest,65.79,poorest,4.63,61.16,14.21,92.96,2,Report
+Zone,Complete continuum,south west,63.6,north west,10.35,53.25,6.14,83.73,3,Report
+Residence,Complete continuum,urban,43.34,rural,13.34,30,3.25,69.22,4,Report
+Age group,Complete continuum,30-34,29.92,15-19,12.41,17.51,2.41,58.52,5,Report
+Zone,Eight or more ANC contacts,south west,68.82,north east,3.98,64.84,17.29,94.22,1,Report
+Wealth quintile,Eight or more ANC contacts,richest,52.37,poorest,2.82,49.55,18.57,94.62,2,Report
+Education,Eight or more ANC contacts,higher,45.93,no education,3.24,42.69,14.18,92.95,3,Report
+Residence,Eight or more ANC contacts,urban,31.13,rural,8.26,22.87,3.77,73.47,4,Report
+Age group,Eight or more ANC contacts,30-34,20.42,15-19,8.49,11.93,2.41,58.42,5,Report
+Wealth quintile,Four or more ANC contacts,richest,90.57,poorest,27.54,63.03,3.29,69.59,1,Report
+Education,Four or more ANC contacts,higher,90.62,no education,31.83,58.79,2.85,64.88,2,Report
+Zone,Four or more ANC contacts,south west,88.01,north west,40.77,47.24,2.16,53.68,3,Report
+Residence,Four or more ANC contacts,urban,73.54,rural,41.83,31.71,1.76,43.12,4,Report
+Age group,Four or more ANC contacts,30-34,58.53,15-19,40.16,18.37,1.46,31.39,5,Report
+Wealth quintile,Health facility delivery,richest,89.52,poorest,17.35,72.17,5.16,80.62,1,Report
+Education,Health facility delivery,higher,90.07,no education,17.95,72.12,5.02,80.07,2,Report
+Zone,Health facility delivery,south east,87.89,north west,21.5,66.39,4.09,75.54,3,Report
+Residence,Health facility delivery,urban,66.16,rural,28.74,37.42,2.3,56.56,4,Report
+Age group,Health facility delivery,35-39,48.2,45-49,30.66,17.54,1.57,36.39,5,Report
+Education,Maternal PNC within 2 days,higher,82.86,no education,22.12,60.74,3.75,73.3,1,Report
+Wealth quintile,Maternal PNC within 2 days,richest,81.58,poorest,22.05,59.53,3.7,72.97,2,Report
+Zone,Maternal PNC within 2 days,south west,78.51,north west,24.89,53.62,3.15,68.3,3,Report
+Residence,Maternal PNC within 2 days,urban,63.34,rural,30.33,33.01,2.09,52.12,4,Report
+Age group,Maternal PNC within 2 days,30-34,48.17,45-49,30.21,17.96,1.59,37.28,5,Report
+Education,Mother and newborn both received PNC within 2 days,higher,77.5,no education,18.54,58.96,4.18,76.08,1,Report
+Wealth quintile,Mother and newborn both received PNC within 2 days,richest,75.07,poorest,18.49,56.58,4.06,75.37,2,Report
+Zone,Mother and newborn both received PNC within 2 days,south west,74.37,north west,19.81,54.56,3.75,73.36,3,Report
+Residence,Mother and newborn both received PNC within 2 days,urban,57.24,rural,26.45,30.79,2.16,53.79,4,Report
+Age group,Mother and newborn both received PNC within 2 days,30-34,42.96,15-19,25.96,17,1.65,39.57,5,Report
+Education,Newborn PNC within 2 days,higher,80.96,no education,22.07,58.89,3.67,72.74,1,Report
+Wealth quintile,Newborn PNC within 2 days,richest,79.56,poorest,22.45,57.11,3.54,71.78,2,Report
+Zone,Newborn PNC within 2 days,south west,79.13,north west,23.89,55.24,3.31,69.81,3,Report
+Residence,Newborn PNC within 2 days,urban,62.01,rural,30.18,31.83,2.05,51.33,4,Report
+Age group,Newborn PNC within 2 days,30-34,46.41,45-49,29.93,16.48,1.55,35.51,5,Report
+Wealth quintile,Skilled birth attendance,richest,91.52,poorest,15.55,75.97,5.89,83.01,1,Report
+Education,Skilled birth attendance,higher,90.85,no education,18.05,72.8,5.03,80.13,2,Report
+Zone,Skilled birth attendance,south east,88.14,north west,25.02,63.12,3.52,71.61,3,Report
+Residence,Skilled birth attendance,urban,69.67,rural,30.03,39.64,2.32,56.9,4,Report
+Age group,Skilled birth attendance,35-39,50.29,15-19,31.92,18.37,1.58,36.53,5,Report

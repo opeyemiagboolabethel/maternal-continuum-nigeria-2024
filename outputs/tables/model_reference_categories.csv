@@ -1,0 +1,6 @@
+variable,predictor,reference_category
+age_group_model,Age group,20-24
+education_model,Education,no education
+wealth_model,Wealth quintile,poorest
+residence_model,Residence,rural
+zone_model,Geopolitical zone,north west

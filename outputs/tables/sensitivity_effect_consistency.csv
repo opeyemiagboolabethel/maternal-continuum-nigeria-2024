@@ -1,0 +1,20 @@
+term,association_direction_complete_continuum,association_direction_complete_continuum_anc8,association_direction_complete_continuum_facility,statistically_significant_complete_continuum,statistically_significant_complete_continuum_anc8,statistically_significant_complete_continuum_facility,direction_consistent,significance_consistent
+age_group_model15-19,Negative,Negative,Negative,No,No,No,Yes,Yes
+age_group_model25-29,Positive,Positive,Positive,No,No,No,Yes,Yes
+age_group_model30-34,Positive,Positive,Positive,No,No,No,Yes,Yes
+age_group_model35-39,Positive,Positive,Positive,No,No,No,Yes,Yes
+age_group_model40-44,Positive,Negative,Positive,No,No,No,No,Yes
+age_group_model45-49,Positive,Negative,Negative,No,No,No,No,Yes
+education_modelhigher,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+education_modelprimary,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+education_modelsecondary,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+wealth_modelmiddle,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+wealth_modelpoorer,Positive,Positive,Positive,Yes,No,Yes,Yes,No
+wealth_modelricher,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+wealth_modelrichest,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+residence_modelurban,Positive,Positive,Positive,Yes,No,Yes,Yes,No
+zone_modelnorth central,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+zone_modelnorth east,Positive,Negative,Positive,Yes,No,Yes,No,No
+zone_modelsouth east,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+zone_modelsouth south,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes
+zone_modelsouth west,Positive,Positive,Positive,Yes,Yes,Yes,Yes,Yes

@@ -1,0 +1,19 @@
+default:
+  project_name: "Maternal Continuum of Care and Postnatal Equity in Nigeria"
+  country: "Nigeria"
+  survey_year: 2024
+
+  raw_data_directory: "data/raw"
+  processed_data_file: "data/processed/maternal_continuum_analytic.rds"
+
+  outputs_directory: "outputs"
+  powerbi_directory: "data/powerbi"
+
+  eligibility:
+    live_birth_code: 1
+    maximum_months_since_outcome: 23
+
+  suppression:
+    suppress_below_n: 25
+    caution_below_n: 50
+    

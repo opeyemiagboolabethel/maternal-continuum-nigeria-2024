@@ -1,0 +1,5 @@
+stage,unweighted_n,percent_of_cohort,retained_from_previous_stage,drop_from_previous_stage
+Eligible recent live births,10522,100,100,0
+Received ANC 4+,5525,52.509028701767726,52.509028701767726,47.490971298232274
+ANC 4+ and skilled birth attendance,3751,35.649116137616424,67.89140271493213,32.10859728506787
+"ANC 4+, skilled birth and paired PNC within 2 days",2702,25.67952860672876,72.03412423353772,27.965875766462275

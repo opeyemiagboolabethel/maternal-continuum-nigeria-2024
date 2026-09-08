@@ -1,0 +1,27 @@
+quality_check,result
+Required analytical files missing,0
+Final analytical records,10522
+Final analytical variables,1020
+Invalid final binary indicators,0
+Duplicate complete rows in analytical dataset,0
+Invalid national percentages,0
+Invalid national confidence interval ordering,0
+Missing national estimates,0
+National-geographic reconciliation failures,0
+State/FCT units represented,37
+State-indicator estimates expected,296
+State-indicator estimates generated,296
+Complete-continuum geographic units ranked,37
+Suppressed equity estimates exposed,0
+Suppressed state estimates exposed,0
+Negative final equity gaps,0
+Final equity ratios below one,0
+Invalid adjusted odds ratios,0
+Invalid adjusted confidence intervals,0
+Invalid adjusted p-values,0
+Invalid sensitivity prevalence values,0
+Invalid sensitivity odds ratios,0
+Invalid sensitivity confidence intervals,0
+Invalid sensitivity p-values,0
+Direct ANC8 subset violations,0
+Critical historical QA failures,0

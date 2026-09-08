@@ -1,0 +1,4 @@
+outcome_variable,outcome_definition,unweighted_n,unweighted_positive_n,weighted_percent,confidence_interval_low_percent,confidence_interval_high_percent,estimate_95ci,difference_from_primary_pp
+complete_continuum,Primary: ANC4 + skilled birth + paired PNC,10174,2685,24.53,23.19,25.87,24.5% (95% CI 23.2-25.9%),0
+complete_continuum_anc8,Sensitivity 1: ANC8 + skilled birth + paired PNC,10174,1178,10.98,10.17,11.78,11.0% (95% CI 10.2-11.8%),-13.55
+complete_continuum_facility,Sensitivity 2: ANC4 + facility delivery + paired PNC,10174,2689,24.56,23.25,25.87,24.6% (95% CI 23.2-25.9%),0.03

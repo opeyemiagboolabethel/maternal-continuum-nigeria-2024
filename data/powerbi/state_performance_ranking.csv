@@ -1,0 +1,297 @@
+state,zone,indicator,state_rank,public_weighted_percent,national_percent,difference_from_national_pp,gap_from_best_pp,reporting_status
+Lagos,south west,Complete continuum,1,72.69,24.52,48.17,0,Report
+Osun,south west,Complete continuum,2,64.7,24.52,40.18,7.99,Report
+Federal Capital Territory,north central,Complete continuum,3,62.97,24.52,38.45,9.72,Report
+Edo,south south,Complete continuum,4,62.71,24.52,38.19,9.98,Report
+Anambra,south east,Complete continuum,5,62.67,24.52,38.15,10.02,Report
+Oyo,south west,Complete continuum,6,61.06,24.52,36.54,11.63,Report
+Ogun,south west,Complete continuum,7,60.1,24.52,35.58,12.59,Report
+Delta,south south,Complete continuum,8,59.35,24.52,34.83,13.34,Report
+Ekiti,south west,Complete continuum,9,55.75,24.52,31.23,16.94,Report
+Abia,south east,Complete continuum,10,52.44,24.52,27.92,20.25,Report
+Ondo,south west,Complete continuum,11,52.07,24.52,27.55,20.62,Report
+Imo,south east,Complete continuum,12,51.04,24.52,26.52,21.65,Report
+Enugu,south east,Complete continuum,13,48.97,24.52,24.45,23.72,Report
+Nasarawa,north central,Complete continuum,14,44.47,24.52,19.95,28.22,Report
+Rivers,south south,Complete continuum,15,44.35,24.52,19.83,28.34,Report
+Cross River,south south,Complete continuum,16,44.2,24.52,19.68,28.49,Report
+Kogi,north central,Complete continuum,17,37.44,24.52,12.92,35.25,Report
+Kwara,north central,Complete continuum,18,36.08,24.52,11.56,36.61,Report
+Benue,north central,Complete continuum,19,34.15,24.52,9.63,38.54,Report
+Plateau,north central,Complete continuum,20,31.29,24.52,6.77,41.4,Report
+Akwa Ibom,south south,Complete continuum,21,29.97,24.52,5.45,42.72,Report
+Bayelsa,south south,Complete continuum,22,29.13,24.52,4.61,43.56,Report
+Ebonyi,south east,Complete continuum,23,28.99,24.52,4.47,43.7,Report
+Borno,north east,Complete continuum,24,19.37,24.52,-5.15,53.32,Report
+Gombe,north east,Complete continuum,25,17.73,24.52,-6.79,54.96,Report
+Kaduna,north west,Complete continuum,26,16.82,24.52,-7.7,55.87,Report
+Yobe,north east,Complete continuum,27,15.68,24.52,-8.84,57.01,Report
+Niger,north central,Complete continuum,28,15.08,24.52,-9.44,57.61,Report
+Kano,north west,Complete continuum,29,13.96,24.52,-10.56,58.73,Report
+Taraba,north east,Complete continuum,30,13.77,24.52,-10.75,58.92,Report
+Adamawa,north east,Complete continuum,31,11.75,24.52,-12.77,60.94,Report
+Bauchi,north east,Complete continuum,32,10.08,24.52,-14.44,62.61,Report
+Jigawa,north west,Complete continuum,33,8.84,24.52,-15.68,63.85,Report
+Zamfara,north west,Complete continuum,34,6.4,24.52,-18.12,66.29,Report
+Sokoto,north west,Complete continuum,35,6.17,24.52,-18.35,66.52,Report
+Katsina,north west,Complete continuum,36,5.78,24.52,-18.74,66.91,Report
+Kebbi,north west,Complete continuum,37,3.28,24.52,-21.24,69.41,Report
+Lagos,south west,Eight or more ANC contacts,1,87.57,16.78,70.79,0,Report
+Ogun,south west,Eight or more ANC contacts,2,82.49,16.78,65.71,5.08,Report
+Osun,south west,Eight or more ANC contacts,3,72.19,16.78,55.41,15.38,Report
+Delta,south south,Eight or more ANC contacts,4,57.85,16.78,41.07,29.72,Report
+Anambra,south east,Eight or more ANC contacts,5,54.92,16.78,38.14,32.65,Report
+Rivers,south south,Eight or more ANC contacts,6,49.74,16.78,32.96,37.83,Report
+Oyo,south west,Eight or more ANC contacts,7,49.36,16.78,32.58,38.21,Report
+Imo,south east,Eight or more ANC contacts,8,49.17,16.78,32.39,38.4,Report
+Abia,south east,Eight or more ANC contacts,9,48.97,16.78,32.19,38.6,Report
+Cross River,south south,Eight or more ANC contacts,10,44.29,16.78,27.51,43.28,Report
+Edo,south south,Eight or more ANC contacts,11,42.29,16.78,25.51,45.28,Report
+Enugu,south east,Eight or more ANC contacts,12,37.75,16.78,20.97,49.82,Report
+Ekiti,south west,Eight or more ANC contacts,13,37.12,16.78,20.34,50.45,Report
+Ondo,south west,Eight or more ANC contacts,14,35.47,16.78,18.69,52.1,Report
+Bayelsa,south south,Eight or more ANC contacts,15,32.59,16.78,15.81,54.98,Report
+Federal Capital Territory,north central,Eight or more ANC contacts,16,30.41,16.78,13.63,57.16,Report
+Kwara,north central,Eight or more ANC contacts,17,29.42,16.78,12.64,58.15,Report
+Akwa Ibom,south south,Eight or more ANC contacts,18,18.97,16.78,2.19,68.6,Report
+Kogi,north central,Eight or more ANC contacts,19,14.12,16.78,-2.66,73.45,Report
+Kaduna,north west,Eight or more ANC contacts,20,12.97,16.78,-3.81,74.6,Report
+Ebonyi,south east,Eight or more ANC contacts,21,12.87,16.78,-3.91,74.7,Report
+Nasarawa,north central,Eight or more ANC contacts,22,10.19,16.78,-6.59,77.38,Report
+Plateau,north central,Eight or more ANC contacts,23,8.93,16.78,-7.85,78.64,Report
+Kano,north west,Eight or more ANC contacts,24,6.69,16.78,-10.09,80.88,Report
+Benue,north central,Eight or more ANC contacts,25,6.02,16.78,-10.76,81.55,Report
+Bauchi,north east,Eight or more ANC contacts,26,5.2,16.78,-11.58,82.37,Report
+Borno,north east,Eight or more ANC contacts,27,5.02,16.78,-11.76,82.55,Report
+Sokoto,north west,Eight or more ANC contacts,28,4.08,16.78,-12.7,83.49,Report
+Yobe,north east,Eight or more ANC contacts,29,3.6,16.78,-13.18,83.97,Report
+Niger,north central,Eight or more ANC contacts,30,3.23,16.78,-13.55,84.34,Report
+Taraba,north east,Eight or more ANC contacts,31,3.17,16.78,-13.61,84.4,Report
+Katsina,north west,Eight or more ANC contacts,32,3.14,16.78,-13.64,84.43,Report
+Adamawa,north east,Eight or more ANC contacts,33,2.49,16.78,-14.29,85.08,Report
+Kebbi,north west,Eight or more ANC contacts,34,1.85,16.78,-14.93,85.72,Report
+Jigawa,north west,Eight or more ANC contacts,35,1.3,16.78,-15.48,86.27,Report
+Gombe,north east,Eight or more ANC contacts,36,1.1,16.78,-15.68,86.47,Report
+Zamfara,north west,Eight or more ANC contacts,37,0,16.78,-16.78,87.57,Report
+Lagos,south west,Four or more ANC contacts,1,96.64,53.65,42.99,0,Report
+Osun,south west,Four or more ANC contacts,2,92.72,53.65,39.07,3.92,Report
+Ogun,south west,Four or more ANC contacts,3,89.96,53.65,36.31,6.68,Report
+Imo,south east,Four or more ANC contacts,4,87.33,53.65,33.68,9.31,Report
+Anambra,south east,Four or more ANC contacts,5,84.86,53.65,31.21,11.78,Report
+Edo,south south,Four or more ANC contacts,6,84.22,53.65,30.57,12.42,Report
+Abia,south east,Four or more ANC contacts,7,83.97,53.65,30.32,12.67,Report
+Federal Capital Territory,north central,Four or more ANC contacts,8,82.97,53.65,29.32,13.67,Report
+Ekiti,south west,Four or more ANC contacts,9,82.33,53.65,28.68,14.31,Report
+Delta,south south,Four or more ANC contacts,10,81.02,53.65,27.37,15.62,Report
+Cross River,south south,Four or more ANC contacts,11,79.99,53.65,26.34,16.65,Report
+Oyo,south west,Four or more ANC contacts,12,79.89,53.65,26.24,16.75,Report
+Enugu,south east,Four or more ANC contacts,13,78.61,53.65,24.96,18.03,Report
+Rivers,south south,Four or more ANC contacts,14,76.48,53.65,22.83,20.16,Report
+Ondo,south west,Four or more ANC contacts,15,72.3,53.65,18.65,24.34,Report
+Akwa Ibom,south south,Four or more ANC contacts,16,66.41,53.65,12.76,30.23,Report
+Nasarawa,north central,Four or more ANC contacts,17,65.95,53.65,12.3,30.69,Report
+Ebonyi,south east,Four or more ANC contacts,18,61.73,53.65,8.08,34.91,Report
+Borno,north east,Four or more ANC contacts,19,61.1,53.65,7.45,35.54,Report
+Kaduna,north west,Four or more ANC contacts,20,59.43,53.65,5.78,37.21,Report
+Adamawa,north east,Four or more ANC contacts,21,56.55,53.65,2.9,40.09,Report
+Bayelsa,south south,Four or more ANC contacts,22,56.21,53.65,2.56,40.43,Report
+Kogi,north central,Four or more ANC contacts,23,54.26,53.65,0.61,42.38,Report
+Kano,north west,Four or more ANC contacts,24,52.18,53.65,-1.47,44.46,Report
+Kwara,north central,Four or more ANC contacts,25,51.58,53.65,-2.07,45.06,Report
+Taraba,north east,Four or more ANC contacts,26,50.55,53.65,-3.1,46.09,Report
+Benue,north central,Four or more ANC contacts,27,49.13,53.65,-4.52,47.51,Report
+Yobe,north east,Four or more ANC contacts,28,48.5,53.65,-5.15,48.14,Report
+Plateau,north central,Four or more ANC contacts,29,47.59,53.65,-6.06,49.05,Report
+Bauchi,north east,Four or more ANC contacts,30,46.83,53.65,-6.82,49.81,Report
+Gombe,north east,Four or more ANC contacts,31,39.1,53.65,-14.55,57.54,Report
+Jigawa,north west,Four or more ANC contacts,32,37.66,53.65,-15.99,58.98,Report
+Katsina,north west,Four or more ANC contacts,33,37.24,53.65,-16.41,59.4,Report
+Niger,north central,Four or more ANC contacts,34,34.69,53.65,-18.96,61.95,Report
+Sokoto,north west,Four or more ANC contacts,35,22.75,53.65,-30.9,73.89,Report
+Zamfara,north west,Four or more ANC contacts,36,21.46,53.65,-32.19,75.18,Report
+Kebbi,north west,Four or more ANC contacts,37,14.03,53.65,-39.62,82.61,Report
+Imo,south east,Health facility delivery,1,96.84,42.93,53.91,0,Report
+Enugu,south east,Health facility delivery,2,93.63,42.93,50.7,3.21,Report
+Edo,south south,Health facility delivery,3,90.59,42.93,47.66,6.25,Report
+Anambra,south east,Health facility delivery,4,88.25,42.93,45.32,8.59,Report
+Osun,south west,Health facility delivery,5,87.49,42.93,44.56,9.35,Report
+Abia,south east,Health facility delivery,6,87.26,42.93,44.33,9.58,Report
+Lagos,south west,Health facility delivery,7,85.9,42.93,42.97,10.94,Report
+Ekiti,south west,Health facility delivery,8,85.45,42.93,42.52,11.39,Report
+Ondo,south west,Health facility delivery,9,84.38,42.93,41.45,12.46,Report
+Ogun,south west,Health facility delivery,10,83.58,42.93,40.65,13.26,Report
+Delta,south south,Health facility delivery,11,83.48,42.93,40.55,13.36,Report
+Federal Capital Territory,north central,Health facility delivery,12,82.37,42.93,39.44,14.47,Report
+Ebonyi,south east,Health facility delivery,13,79.21,42.93,36.28,17.63,Report
+Oyo,south west,Health facility delivery,14,76.8,42.93,33.87,20.04,Report
+Kogi,north central,Health facility delivery,15,62.74,42.93,19.81,34.1,Report
+Benue,north central,Health facility delivery,16,59.66,42.93,16.73,37.18,Report
+Rivers,south south,Health facility delivery,17,59.11,42.93,16.18,37.73,Report
+Cross River,south south,Health facility delivery,18,58.21,42.93,15.28,38.63,Report
+Nasarawa,north central,Health facility delivery,19,54.95,42.93,12.02,41.89,Report
+Kwara,north central,Health facility delivery,20,50.96,42.93,8.03,45.88,Report
+Gombe,north east,Health facility delivery,21,47.16,42.93,4.23,49.68,Report
+Bayelsa,south south,Health facility delivery,22,46.61,42.93,3.68,50.23,Report
+Plateau,north central,Health facility delivery,23,45.71,42.93,2.78,51.13,Report
+Borno,north east,Health facility delivery,24,43.71,42.93,0.78,53.13,Report
+Akwa Ibom,south south,Health facility delivery,25,42.52,42.93,-0.41,54.32,Report
+Adamawa,north east,Health facility delivery,26,40.38,42.93,-2.55,56.46,Report
+Taraba,north east,Health facility delivery,27,32.81,42.93,-10.12,64.03,Report
+Kano,north west,Health facility delivery,28,32.34,42.93,-10.59,64.5,Report
+Yobe,north east,Health facility delivery,29,31.65,42.93,-11.28,65.19,Report
+Bauchi,north east,Health facility delivery,30,30.49,42.93,-12.44,66.35,Report
+Niger,north central,Health facility delivery,31,30.2,42.93,-12.73,66.64,Report
+Kaduna,north west,Health facility delivery,32,25.09,42.93,-17.84,71.75,Report
+Jigawa,north west,Health facility delivery,33,20.85,42.93,-22.08,75.99,Report
+Katsina,north west,Health facility delivery,34,15.33,42.93,-27.6,81.51,Report
+Zamfara,north west,Health facility delivery,35,14.58,42.93,-28.35,82.26,Report
+Sokoto,north west,Health facility delivery,36,12.44,42.93,-30.49,84.4,Report
+Kebbi,north west,Health facility delivery,37,9.1,42.93,-33.83,87.74,Report
+Lagos,south west,Maternal PNC within 2 days,1,87.32,42.87,44.45,0,Report
+Edo,south south,Maternal PNC within 2 days,2,86.14,42.87,43.27,1.18,Report
+Federal Capital Territory,north central,Maternal PNC within 2 days,3,82.27,42.87,39.4,5.05,Report
+Ogun,south west,Maternal PNC within 2 days,4,81.03,42.87,38.16,6.29,Report
+Ekiti,south west,Maternal PNC within 2 days,5,77.48,42.87,34.61,9.84,Report
+Delta,south south,Maternal PNC within 2 days,6,77.25,42.87,34.38,10.07,Report
+Ondo,south west,Maternal PNC within 2 days,7,75.87,42.87,33,11.45,Report
+Osun,south west,Maternal PNC within 2 days,8,75.28,42.87,32.41,12.04,Report
+Cross River,south south,Maternal PNC within 2 days,9,74.64,42.87,31.77,12.68,Report
+Anambra,south east,Maternal PNC within 2 days,10,73.17,42.87,30.3,14.15,Report
+Nasarawa,north central,Maternal PNC within 2 days,11,68.39,42.87,25.52,18.93,Report
+Oyo,south west,Maternal PNC within 2 days,12,68.32,42.87,25.45,19,Report
+Abia,south east,Maternal PNC within 2 days,13,66.4,42.87,23.53,20.92,Report
+Enugu,south east,Maternal PNC within 2 days,14,65.79,42.87,22.92,21.53,Report
+Imo,south east,Maternal PNC within 2 days,15,61.67,42.87,18.8,25.65,Report
+Akwa Ibom,south south,Maternal PNC within 2 days,16,60.42,42.87,17.55,26.9,Report
+Kwara,north central,Maternal PNC within 2 days,17,56.95,42.87,14.08,30.37,Report
+Plateau,north central,Maternal PNC within 2 days,18,56.32,42.87,13.45,31,Report
+Benue,north central,Maternal PNC within 2 days,19,56.18,42.87,13.31,31.14,Report
+Kogi,north central,Maternal PNC within 2 days,20,56.17,42.87,13.3,31.15,Report
+Ebonyi,south east,Maternal PNC within 2 days,21,55.93,42.87,13.06,31.39,Report
+Rivers,south south,Maternal PNC within 2 days,22,54.34,42.87,11.47,32.98,Report
+Adamawa,north east,Maternal PNC within 2 days,23,50.85,42.87,7.98,36.47,Report
+Borno,north east,Maternal PNC within 2 days,24,47.47,42.87,4.6,39.85,Report
+Gombe,north east,Maternal PNC within 2 days,25,44.92,42.87,2.05,42.4,Report
+Jigawa,north west,Maternal PNC within 2 days,26,43.86,42.87,0.99,43.46,Report
+Bayelsa,south south,Maternal PNC within 2 days,27,43.44,42.87,0.57,43.88,Report
+Taraba,north east,Maternal PNC within 2 days,28,34.41,42.87,-8.46,52.91,Report
+Yobe,north east,Maternal PNC within 2 days,29,33.89,42.87,-8.98,53.43,Report
+Kano,north west,Maternal PNC within 2 days,30,32.84,42.87,-10.03,54.48,Report
+Niger,north central,Maternal PNC within 2 days,31,32.58,42.87,-10.29,54.74,Report
+Bauchi,north east,Maternal PNC within 2 days,32,23.95,42.87,-18.92,63.37,Report
+Kaduna,north west,Maternal PNC within 2 days,33,22.62,42.87,-20.25,64.7,Report
+Katsina,north west,Maternal PNC within 2 days,34,19.39,42.87,-23.48,67.93,Report
+Zamfara,north west,Maternal PNC within 2 days,35,18.08,42.87,-24.79,69.24,Report
+Sokoto,north west,Maternal PNC within 2 days,36,11.57,42.87,-31.3,75.75,Report
+Kebbi,north west,Maternal PNC within 2 days,37,11.32,42.87,-31.55,76,Report
+Lagos,south west,Mother and newborn both received PNC within 2 days,1,83.21,38.14,45.07,0,Report
+Edo,south south,Mother and newborn both received PNC within 2 days,2,80.65,38.14,42.51,2.56,Report
+Federal Capital Territory,north central,Mother and newborn both received PNC within 2 days,3,80.29,38.14,42.15,2.92,Report
+Ogun,south west,Mother and newborn both received PNC within 2 days,4,76.92,38.14,38.78,6.29,Report
+Cross River,south south,Mother and newborn both received PNC within 2 days,5,72.88,38.14,34.74,10.33,Report
+Ekiti,south west,Mother and newborn both received PNC within 2 days,6,71.63,38.14,33.49,11.58,Report
+Osun,south west,Mother and newborn both received PNC within 2 days,7,70.33,38.14,32.19,12.88,Report
+Ondo,south west,Mother and newborn both received PNC within 2 days,8,70.09,38.14,31.95,13.12,Report
+Delta,south south,Mother and newborn both received PNC within 2 days,9,69.9,38.14,31.76,13.31,Report
+Anambra,south east,Mother and newborn both received PNC within 2 days,10,69.45,38.14,31.31,13.76,Report
+Oyo,south west,Mother and newborn both received PNC within 2 days,11,65.58,38.14,27.44,17.63,Report
+Nasarawa,north central,Mother and newborn both received PNC within 2 days,12,62.1,38.14,23.96,21.11,Report
+Abia,south east,Mother and newborn both received PNC within 2 days,13,60.69,38.14,22.55,22.52,Report
+Enugu,south east,Mother and newborn both received PNC within 2 days,14,59.46,38.14,21.32,23.75,Report
+Imo,south east,Mother and newborn both received PNC within 2 days,15,55.92,38.14,17.78,27.29,Report
+Akwa Ibom,south south,Mother and newborn both received PNC within 2 days,16,55.1,38.14,16.96,28.11,Report
+Ebonyi,south east,Mother and newborn both received PNC within 2 days,17,54,38.14,15.86,29.21,Report
+Kwara,north central,Mother and newborn both received PNC within 2 days,18,53.47,38.14,15.33,29.74,Report
+Plateau,north central,Mother and newborn both received PNC within 2 days,19,52.64,38.14,14.5,30.57,Report
+Kogi,north central,Mother and newborn both received PNC within 2 days,20,51.08,38.14,12.94,32.13,Report
+Benue,north central,Mother and newborn both received PNC within 2 days,21,50.96,38.14,12.82,32.25,Report
+Rivers,south south,Mother and newborn both received PNC within 2 days,22,50.04,38.14,11.9,33.17,Report
+Adamawa,north east,Mother and newborn both received PNC within 2 days,23,46.31,38.14,8.17,36.9,Report
+Gombe,north east,Mother and newborn both received PNC within 2 days,24,42.21,38.14,4.07,41,Report
+Borno,north east,Mother and newborn both received PNC within 2 days,25,41.5,38.14,3.36,41.71,Report
+Jigawa,north west,Mother and newborn both received PNC within 2 days,26,38.48,38.14,0.34,44.73,Report
+Bayelsa,south south,Mother and newborn both received PNC within 2 days,27,34.76,38.14,-3.38,48.45,Report
+Taraba,north east,Mother and newborn both received PNC within 2 days,28,30.82,38.14,-7.32,52.39,Report
+Niger,north central,Mother and newborn both received PNC within 2 days,29,30.54,38.14,-7.6,52.67,Report
+Yobe,north east,Mother and newborn both received PNC within 2 days,30,29.06,38.14,-9.08,54.15,Report
+Kano,north west,Mother and newborn both received PNC within 2 days,31,25.3,38.14,-12.84,57.91,Report
+Kaduna,north west,Mother and newborn both received PNC within 2 days,32,19.75,38.14,-18.39,63.46,Report
+Bauchi,north east,Mother and newborn both received PNC within 2 days,33,18.18,38.14,-19.96,65.03,Report
+Katsina,north west,Mother and newborn both received PNC within 2 days,34,13.03,38.14,-25.11,70.18,Report
+Zamfara,north west,Mother and newborn both received PNC within 2 days,35,10.97,38.14,-27.17,72.24,Report
+Kebbi,north west,Mother and newborn both received PNC within 2 days,36,9.97,38.14,-28.17,73.24,Report
+Sokoto,north west,Mother and newborn both received PNC within 2 days,37,9.68,38.14,-28.46,73.53,Report
+Edo,south south,Newborn PNC within 2 days,1,86.82,42.27,44.55,0,Report
+Federal Capital Territory,north central,Newborn PNC within 2 days,2,86.71,42.27,44.44,0.11,Report
+Lagos,south west,Newborn PNC within 2 days,3,86.47,42.27,44.2,0.35,Report
+Ogun,south west,Newborn PNC within 2 days,4,81.72,42.27,39.45,5.1,Report
+Ekiti,south west,Newborn PNC within 2 days,5,78.39,42.27,36.12,8.43,Report
+Osun,south west,Newborn PNC within 2 days,6,76.5,42.27,34.23,10.32,Report
+Cross River,south south,Newborn PNC within 2 days,7,76.41,42.27,34.14,10.41,Report
+Ondo,south west,Newborn PNC within 2 days,8,73.49,42.27,31.22,13.33,Report
+Delta,south south,Newborn PNC within 2 days,9,72.38,42.27,30.11,14.44,Report
+Oyo,south west,Newborn PNC within 2 days,10,71.45,42.27,29.18,15.37,Report
+Anambra,south east,Newborn PNC within 2 days,11,70.87,42.27,28.6,15.95,Report
+Akwa Ibom,south south,Newborn PNC within 2 days,12,69.17,42.27,26.9,17.65,Report
+Abia,south east,Newborn PNC within 2 days,13,65.9,42.27,23.63,20.92,Report
+Nasarawa,north central,Newborn PNC within 2 days,14,65.23,42.27,22.96,21.59,Report
+Enugu,south east,Newborn PNC within 2 days,15,62.51,42.27,20.24,24.31,Report
+Imo,south east,Newborn PNC within 2 days,16,59.52,42.27,17.25,27.3,Report
+Adamawa,north east,Newborn PNC within 2 days,17,58.91,42.27,16.64,27.91,Report
+Kwara,north central,Newborn PNC within 2 days,18,58.13,42.27,15.86,28.69,Report
+Benue,north central,Newborn PNC within 2 days,19,56.73,42.27,14.46,30.09,Report
+Ebonyi,south east,Newborn PNC within 2 days,20,56.2,42.27,13.93,30.62,Report
+Kogi,north central,Newborn PNC within 2 days,21,55.33,42.27,13.06,31.49,Report
+Rivers,south south,Newborn PNC within 2 days,22,54.19,42.27,11.92,32.63,Report
+Plateau,north central,Newborn PNC within 2 days,23,52.88,42.27,10.61,33.94,Report
+Gombe,north east,Newborn PNC within 2 days,24,46.49,42.27,4.22,40.33,Report
+Borno,north east,Newborn PNC within 2 days,25,44.97,42.27,2.7,41.85,Report
+Jigawa,north west,Newborn PNC within 2 days,26,41.4,42.27,-0.87,45.42,Report
+Bayelsa,south south,Newborn PNC within 2 days,27,41.18,42.27,-1.09,45.64,Report
+Niger,north central,Newborn PNC within 2 days,28,35.24,42.27,-7.03,51.58,Report
+Yobe,north east,Newborn PNC within 2 days,29,32.34,42.27,-9.93,54.48,Report
+Taraba,north east,Newborn PNC within 2 days,30,32.29,42.27,-9.98,54.53,Report
+Kano,north west,Newborn PNC within 2 days,31,30.07,42.27,-12.2,56.75,Report
+Kaduna,north west,Newborn PNC within 2 days,32,23.57,42.27,-18.7,63.25,Report
+Bauchi,north east,Newborn PNC within 2 days,33,20.1,42.27,-22.17,66.72,Report
+Zamfara,north west,Newborn PNC within 2 days,34,18.05,42.27,-24.22,68.77,Report
+Katsina,north west,Newborn PNC within 2 days,35,17.47,42.27,-24.8,69.35,Report
+Kebbi,north west,Newborn PNC within 2 days,36,14.17,42.27,-28.1,72.65,Report
+Sokoto,north west,Newborn PNC within 2 days,37,10.17,42.27,-32.1,76.65,Report
+Imo,south east,Skilled birth attendance,1,97.32,45.09,52.23,0,Report
+Enugu,south east,Skilled birth attendance,2,96.7,45.09,51.61,0.62,Report
+Abia,south east,Skilled birth attendance,3,94.8,45.09,49.71,2.52,Report
+Anambra,south east,Skilled birth attendance,4,93.04,45.09,47.95,4.28,Report
+Ekiti,south west,Skilled birth attendance,5,92.78,45.09,47.69,4.54,Report
+Edo,south south,Skilled birth attendance,6,92.51,45.09,47.42,4.81,Report
+Osun,south west,Skilled birth attendance,7,91.54,45.09,46.45,5.78,Report
+Rivers,south south,Skilled birth attendance,8,91.09,45.09,46,6.23,Report
+Lagos,south west,Skilled birth attendance,9,86.23,45.09,41.14,11.09,Report
+Oyo,south west,Skilled birth attendance,10,83.05,45.09,37.96,14.27,Report
+Ogun,south west,Skilled birth attendance,11,82.86,45.09,37.77,14.46,Report
+Federal Capital Territory,north central,Skilled birth attendance,12,82.58,45.09,37.49,14.74,Report
+Delta,south south,Skilled birth attendance,13,81.23,45.09,36.14,16.09,Report
+Ondo,south west,Skilled birth attendance,14,76.11,45.09,31.02,21.21,Report
+Ebonyi,south east,Skilled birth attendance,15,73.04,45.09,27.95,24.28,Report
+Nasarawa,north central,Skilled birth attendance,16,68.02,45.09,22.93,29.3,Report
+Benue,north central,Skilled birth attendance,17,66.59,45.09,21.5,30.73,Report
+Kogi,north central,Skilled birth attendance,18,60.65,45.09,15.56,36.67,Report
+Bayelsa,south south,Skilled birth attendance,19,55.98,45.09,10.89,41.34,Report
+Cross River,south south,Skilled birth attendance,20,55.45,45.09,10.36,41.87,Report
+Kwara,north central,Skilled birth attendance,21,54.4,45.09,9.31,42.92,Report
+Akwa Ibom,south south,Skilled birth attendance,22,51.23,45.09,6.14,46.09,Report
+Plateau,north central,Skilled birth attendance,23,49.89,45.09,4.8,47.43,Report
+Borno,north east,Skilled birth attendance,24,36.66,45.09,-8.43,60.66,Report
+Gombe,north east,Skilled birth attendance,25,36.42,45.09,-8.67,60.9,Report
+Kano,north west,Skilled birth attendance,26,35.66,45.09,-9.43,61.66,Report
+Kaduna,north west,Skilled birth attendance,27,35.03,45.09,-10.06,62.29,Report
+Yobe,north east,Skilled birth attendance,28,34.44,45.09,-10.65,62.88,Report
+Taraba,north east,Skilled birth attendance,29,34.02,45.09,-11.07,63.3,Report
+Niger,north central,Skilled birth attendance,30,33.77,45.09,-11.32,63.55,Report
+Bauchi,north east,Skilled birth attendance,31,27.65,45.09,-17.44,69.67,Report
+Adamawa,north east,Skilled birth attendance,32,23.62,45.09,-21.47,73.7,Report
+Jigawa,north west,Skilled birth attendance,33,23.58,45.09,-21.51,73.74,Report
+Katsina,north west,Skilled birth attendance,34,18.56,45.09,-26.53,78.76,Report
+Sokoto,north west,Skilled birth attendance,35,12.41,45.09,-32.68,84.91,Report
+Zamfara,north west,Skilled birth attendance,36,12.36,45.09,-32.73,84.96,Report
+Kebbi,north west,Skilled birth attendance,37,9.81,45.09,-35.28,87.51,Report

@@ -1,0 +1,8 @@
+variable,indicator,unweighted_n,unweighted_positive_n,weighted_percent,standard_error_percent,confidence_interval_low_percent,confidence_interval_high_percent,estimate_95ci,national_percent,absolute_difference_pp,reconciliation_status
+anc_4plus,Four or more ANC contacts,10236,5525,53.65,0.96,51.77,55.54,53.6% (95% CI 51.8-55.5%),53.65,0,PASS
+anc_8plus,Eight or more ANC contacts,10236,1791,16.78,0.55,15.69,17.87,16.8% (95% CI 15.7-17.9%),16.78,0,PASS
+facility_delivery,Health facility delivery,10460,4794,42.93,0.94,41.09,44.77,42.9% (95% CI 41.1-44.8%),42.93,0,PASS
+skilled_birth,Skilled birth attendance,10522,5028,45.09,0.98,43.18,47,45.1% (95% CI 43.2-47.0%),45.09,0,PASS
+mother_pnc_2days,Maternal PNC within 2 days,10522,4747,42.87,0.85,41.21,44.53,42.9% (95% CI 41.2-44.5%),42.87,0,PASS
+newborn_pnc_2days,Newborn PNC within 2 days,10522,4765,42.27,0.85,40.6,43.93,42.3% (95% CI 40.6-43.9%),42.27,0,PASS
+paired_pnc_2days,Mother and newborn both received PNC within 2 days,10522,4318,38.14,0.83,36.52,39.76,38.1% (95% CI 36.5-39.8%),38.14,0,PASS

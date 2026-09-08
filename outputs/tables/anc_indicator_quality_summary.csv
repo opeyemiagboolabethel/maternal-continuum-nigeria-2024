@@ -1,0 +1,13 @@
+quality_check,result
+Analytical cohort size,10522
+Any ANC non-missing,10522
+Skilled ANC non-missing,10522
+Early ANC non-missing,7730
+ANC 4+ non-missing,10236
+ANC 8+ non-missing,10236
+Complete ANC content non-missing,7745
+ANC 8+ without ANC 4+,0
+Skilled ANC without any ANC,0
+Invalid ANC content scores,0
+Minimum ANC content score,0
+Maximum ANC content score,7

@@ -1,0 +1,3 @@
+variable,variable_label,value_labels,r_class,total_n,nonmissing_n,missing_n,missing_percent,unique_nonmissing_values
+p19,months since pregnancy outcome,NA,numeric,17986,17986,0,0,36
+m80,pregnancy outcome for this section,most recent live birth = 1 | prior live birth = 2 | most recent stillbirth = 3 | prior stillbirth = 4 | miscarriage/abortion = 5,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,5

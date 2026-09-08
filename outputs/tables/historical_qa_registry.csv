@@ -1,0 +1,19 @@
+analysis_stage,quality_check,result,expected_result,status
+National weighted analysis,Weighted percentages outside 0-100,0,0,PASS
+National weighted analysis,Invalid confidence interval ordering,0,0,PASS
+National weighted analysis,Missing weighted estimates,0,0,PASS
+Equity analysis,Invalid weighted percentages,0,0,PASS
+Equity analysis,Invalid confidence intervals,0,0,PASS
+Equity gap analysis,Negative absolute gaps,0,0,PASS
+Equity gap analysis,Relative ratios below one,0,0,PASS
+Equity gap analysis,Invalid relative shortfalls,0,0,PASS
+Geographic analysis,Invalid state percentages,0,0,PASS
+Geographic analysis,Invalid state confidence intervals,0,0,PASS
+Statistical modelling,Invalid adjusted odds ratios,0,0,PASS
+Statistical modelling,Invalid adjusted confidence intervals,0,0,PASS
+Statistical modelling,Invalid adjusted-model p-values,0,0,PASS
+Statistical modelling,Adjusted model converged,1,1,PASS
+Sensitivity analysis,ANC8 subset violations,0,0,PASS
+Sensitivity analysis,Invalid adjusted odds ratios,0,0,PASS
+Sensitivity analysis,Invalid adjusted confidence intervals,0,0,PASS
+Sensitivity analysis,Invalid adjusted-model p-values,0,0,PASS

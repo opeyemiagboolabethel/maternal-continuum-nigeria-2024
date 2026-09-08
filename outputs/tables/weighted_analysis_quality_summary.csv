@@ -1,0 +1,10 @@
+quality_check,result
+Indicators estimated,14
+Weighted percentages outside 0-100,0
+Invalid confidence interval ordering,0
+Confidence interval bounds outside 0-100,0
+Missing weighted estimates,0
+Missing PSU values,0
+Missing stratum values,0
+Missing survey weights,0
+Non-positive survey weights,0

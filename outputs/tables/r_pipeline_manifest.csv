@@ -1,0 +1,13 @@
+sequence,script,purpose
+1,00_install_packages.R,Package installation
+2,01_setup.R,Project configuration and helper functions
+3,02_import_and_audit.R,DHS data import and source audit
+4,02b_validate_variables.R,Variable and metadata validation
+5,03_clean_and_derive.R,Analytical cohort and indicator derivation
+6,04_weighted_analysis.R,Survey-weighted national estimates
+7,05_equity_analysis.R,Survey-weighted subgroup equity analysis
+8,06_equity_gaps.R,Equity gap quantification
+9,07_geographic_analysis.R,State-level geographic analysis
+10,08_statistical_modelling.R,Survey-weighted multivariable modelling
+11,09_sensitivity_analysis.R,Sensitivity and robustness analysis
+12,10_final_r_qa.R,Final analytical QA and reconciliation

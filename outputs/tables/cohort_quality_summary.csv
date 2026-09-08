@@ -1,0 +1,14 @@
+quality_check,result
+Analytical cohort size,10522
+Unique case identifiers,10522
+Duplicate case identifiers,0
+Missing survey weights,0
+Non-positive survey weights,0
+Missing PSU values,0
+Missing stratum values,0
+Minimum months since live birth,0
+Maximum months since live birth,23
+Number of PSUs,1364
+Number of strata,74
+Number of zones,6
+Number of residence categories,2

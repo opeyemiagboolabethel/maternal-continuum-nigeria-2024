@@ -1,0 +1,8 @@
+quality_check,result
+Analytical cohort size,10522
+Facility delivery non-missing,10460
+Skilled birth attendance non-missing,10522
+Invalid facility delivery values,0
+Invalid skilled birth values,0
+Skilled birth outside health facility,613
+Facility birth without skilled provider,408

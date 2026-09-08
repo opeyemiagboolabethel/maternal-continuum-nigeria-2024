@@ -1,0 +1,10 @@
+quality_check,result
+Analytical cohort size,10522
+Paired PNC indicator non-missing,10522
+Paired PNC within 2 days,4318
+Mother PNC within 2 days,4747
+Newborn PNC within 2 days,4765
+Invalid paired PNC values,0
+Missing or indeterminate paired status,0
+Both-status mismatch,0
+Paired binary-component mismatch,0

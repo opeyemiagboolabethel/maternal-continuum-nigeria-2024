@@ -1,0 +1,9 @@
+indicator_variable,indicator,highest_state,highest_percent,lowest_state,lowest_percent,state_gap_pp
+anc_4plus,Four or more ANC contacts,Lagos,96.64,Kebbi,14.03,82.61
+anc_8plus,Eight or more ANC contacts,Lagos,87.57,Zamfara,0,87.57
+complete_continuum,Complete continuum,Lagos,72.69,Kebbi,3.28,69.41
+facility_delivery,Health facility delivery,Imo,96.84,Kebbi,9.1,87.74
+mother_pnc_2days,Maternal PNC within 2 days,Lagos,87.32,Kebbi,11.32,76
+newborn_pnc_2days,Newborn PNC within 2 days,Edo,86.82,Sokoto,10.17,76.65
+paired_pnc_2days,Mother and newborn both received PNC within 2 days,Lagos,83.21,Sokoto,9.68,73.53
+skilled_birth,Skilled birth attendance,Imo,97.32,Kebbi,9.81,87.51

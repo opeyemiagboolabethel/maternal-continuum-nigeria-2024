@@ -1,0 +1,4 @@
+outcome_definition,weighted_percent,confidence_interval_low_percent,confidence_interval_high_percent,difference_from_primary_pp,estimate_95ci
+Primary: ANC4 + skilled birth + paired PNC,24.53,23.19,25.87,0,24.5% (95% CI 23.2-25.9%)
+Sensitivity 1: ANC8 + skilled birth + paired PNC,10.98,10.17,11.78,-13.55,11.0% (95% CI 10.2-11.8%)
+Sensitivity 2: ANC4 + facility delivery + paired PNC,24.56,23.25,25.87,0.03,24.6% (95% CI 23.2-25.9%)

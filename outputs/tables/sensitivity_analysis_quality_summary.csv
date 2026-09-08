@@ -1,0 +1,10 @@
+quality_check,result
+Common sensitivity-analysis sample,10174
+Outcome definitions compared,3
+ANC8 subset violations,0
+Adjusted model coefficient estimates,57
+Invalid adjusted odds ratios,0
+Invalid adjusted confidence intervals,0
+Invalid adjusted-model p-values,0
+Terms with inconsistent association direction,3
+Terms with inconsistent statistical significance,3

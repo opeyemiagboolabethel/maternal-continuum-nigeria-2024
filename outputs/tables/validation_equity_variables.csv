@@ -1,0 +1,13 @@
+variable,variable_label,value_labels,r_class,total_n,nonmissing_n,missing_n,missing_percent,unique_nonmissing_values
+v012,respondent's current age,NA,numeric,17986,17986,0,0,35
+v013,age in 5-year groups,15-19 = 1 | 20-24 = 2 | 25-29 = 3 | 30-34 = 4 | 35-39 = 5 | 40-44 = 6 | 45-49 = 7,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,7
+v106,highest educational level,no education = 0 | primary = 1 | secondary = 2 | higher = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,4
+v190,wealth index combined,poorest = 1 | poorer = 2 | middle = 3 | richer = 4 | richest = 5,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,5
+v201,total children ever born,NA,numeric,17986,17986,0,0,17
+v501,current marital status,never in union = 0 | married = 1 | living with partner = 2 | widowed = 3 | divorced = 4 | no longer living together/separated = 5,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,6
+v714,respondent currently working,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,2
+v481,covered by health insurance,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,2
+v467d,getting medical help for self: distance to health facility,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",17986,17986,0,0,2
+v743a,person who usually decides on: respondent's health care,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,16922,1064,5.915712220616035,5
+v743b,person who usually decides on: large household purchases,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,16922,1064,5.915712220616035,5
+v743d,person who usually decides on: visits to family or relatives,respondent alone = 1 | respondent and husband/partner = 2 | respondent and other person = 3 | husband/partner alone = 4 | someone else = 5 | other = 6,"haven_labelled, vctrs_vctr, double",17986,16922,1064,5.915712220616035,5

@@ -1,0 +1,16 @@
+variable,variable_label,value_labels,r_class,total_n,nonmissing_n,missing_n,missing_percent,unique_nonmissing_values
+m15,place of delivery,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,21
+m3a,assistance: doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3b,assistance: nurse/midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3c,assistance: community health extension worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3d,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m3e,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m3f,na - assistance: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m3g,assistance: traditional birth attendant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3h,assistance: auxiliary midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3i,assistance: relative/friend,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3j,assistance: comm health influencers/promoters/field workers,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3k,assistance: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2
+m3l,na - assistance: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m3m,na - assistance: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,0,17986,100,0
+m3n,assistance: no one,no: some assistance = 0 | yes: no assistance = 1,"haven_labelled, vctrs_vctr, double",17986,16310,1676,9.318358723451574,2

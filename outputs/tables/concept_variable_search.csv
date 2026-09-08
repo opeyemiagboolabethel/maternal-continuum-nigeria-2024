@@ -1,0 +1,138 @@
+variable,variable_label,value_labels,r_class,missing_n,missing_percent,unique_n
+v025,type of place of residence,urban = 1 | rural = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v026,na - de facto place of residence,"capital, large city = 0 | small city = 1 | town = 2 | countryside = 3","haven_labelled, vctrs_vctr, double",17986,100,0
+v102,type of place of residence,urban = 1 | rural = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v103,na - childhood place of residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4","haven_labelled, vctrs_vctr, double",17986,100,0
+v104,years lived in place of residence,always = 95 | visitor = 96 | inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",0,0,46
+v105,type of place of previous residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4","haven_labelled, vctrs_vctr, double",10260,57.04436784165462,3
+v105a,zone of previous residence,north central = 1 | north east = 2 | north west = 3 | south east = 4 | south south = 5 | south west = 6 | abroad = 96,"haven_labelled, vctrs_vctr, double",10260,57.04436784165462,7
+v106,highest educational level,no education = 0 | primary = 1 | secondary = 2 | higher = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",0,0,4
+v107,highest year of education,no years completed at level v106 = 0,"haven_labelled, vctrs_vctr, double",7315,40.670521516735235,9
+v133,education in single years,inconsistent = 97,"haven_labelled, vctrs_vctr, double",0,0,21
+v134,na - de facto place of residence,"capital, large city = 0 | small city = 1 | town = 2 | countryside = 3","haven_labelled, vctrs_vctr, double",17986,100,0
+v139,de jure region of residence,abroad = 0 | north west = 1 | north east = 2 | north central = 3 | south east = 4 | south south = 5 | south west = 6 | not a de jure resident = 97,"haven_labelled, vctrs_vctr, double",0,0,7
+v140,de jure type of place of residence,abroad = 0 | urban = 1 | rural = 2 | not a de jure resident = 7,"haven_labelled, vctrs_vctr, double",0,0,3
+v141,na - de jure place of residence,"capital, large city = 0 | city = 1 | town = 2 | countryside = 3 | abroad = 4 | not a de jure resident = 7","haven_labelled, vctrs_vctr, double",17848,99.23273657289002,1
+v149,educational attainment,no education = 0 | incomplete primary = 1 | complete primary = 2 | incomplete secondary = 3 | complete secondary = 4 | higher = 5,"haven_labelled, vctrs_vctr, double",0,0,6
+awfactr,all woman factor - regional,NA,numeric,0,0,1
+awfacte,all woman factor - educational,NA,numeric,0,0,1
+awfactw,all woman factor - wealth index,NA,numeric,0,0,1
+v174m,month move to current place of residence,don't know month = 98,"haven_labelled, vctrs_vctr, double",15315,85.14956076948738,13
+v174y,year move to current place of residence,don't know year = 9998,"haven_labelled, vctrs_vctr, double",15315,85.14956076948738,7
+v175,reason for moving to current place of residence,employment = 1 | education/training = 2 | marriage formation = 3 | family reunification/other family-related reason = 4 | forced displacement = 5 | other = 96,"haven_labelled, vctrs_vctr, double",10260,57.04436784165462,6
+v190,wealth index combined,poorest = 1 | poorer = 2 | middle = 3 | richer = 4 | richest = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+v191,wealth index factor score combined (5 decimals),NA,numeric,0,0,13433
+v190a,wealth index for urban/rural,poorest = 1 | poorer = 2 | middle = 3 | richer = 4 | richest = 5,"haven_labelled, vctrs_vctr, double",0,0,5
+v191a,wealth index factor score for urban/rural (5 decimals),NA,numeric,0,0,13394
+v417,entries in pregnancy and postnatal care roster,NA,numeric,0,0,5
+v467d,getting medical help for self: distance to health facility,no problem = 0 | big problem = 1 | not a big problem = 2,"haven_labelled, vctrs_vctr, double",0,0,2
+v481,covered by health insurance,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481a,health insurance type: mutual/community organization,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481b,health insurance type: provided by employer,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481c,health insurance type: social security,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481d,health insurance type: private/commercially purchased,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v481e,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481f,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481g,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481h,na - health insurance type: cs,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+v481x,health insurance type: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",0,0,2
+v632,decision maker for using contraception,respondent = 1 | husband/partner = 2 | joint decision = 3 | someone else = 4 | other = 6,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v632a,na - decision maker for not using contraception,"mainly respondent = 1 | mainly husband, partner = 2 | joint decision = 3 | other = 6","haven_labelled, vctrs_vctr, double",17986,100,0
+v701,husband/partner's education level,no education = 0 | primary = 1 | secondary = 2 | higher = 3 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,5
+v702,husband/partner's highest year of education (at level in v701),no years completed at level v701 = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",7394,41.109752029356166,9
+v715,husband/partner's total number of years of education,inconsistent = 97 | don't know = 98,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,22
+v729,husband/partner's educational attainment,no education = 0 | incomplete primary = 1 | complete primary = 2 | incomplete secondary = 3 | complete secondary = 4 | higher = 5 | don't know = 8,"haven_labelled, vctrs_vctr, double",1064,5.915712220616035,7
+m2a,prenatal: doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2b,prenatal: nurse/midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2c,prenatal: community health extension worker,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2d,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2e,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2f,na - prenatal: cs health professional,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2g,prenatal: traditional birth attendant,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2h,prenatal: auxiliary midwife,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2i,prenatal: comm health influencers/promoters/field workers,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2j,na - prenatal: cs other person,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2k,prenatal: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m2l,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2m,na - prenatal: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m2n,prenatal: no one,no: some care = 0 | yes: no care = 1,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m13,timing of 1st antenatal check (months),don't know = 98,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,10
+m13a,timing of 1st antenatal check (original),weeks: 1 = 101 | weeks: number missing = 199 | months: 1 = 201 | months: number missing = 299 | don't know = 998,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,26
+m14,number of antenatal visits during pregnancy,no antenatal visits = 0 | don't know = 98,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,22
+m15,place of delivery,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,21
+m17,delivery by caesarean section,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",1676,9.318358723451574,2
+m17a,na - timing on decision for caesarean section,before labor started = 1 | after labor started = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+m54,na - received vitamin a dose in first 2 months after delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57a,antenatal care: respondent's home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57b,antenatal care: other home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57c,na - antenatal care: cs home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57d,na - antenatal care: cs home,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57e,antenatal care: teaching hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57f,antenatal care: federal medical center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57g,antenatal care: general hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57h,antenatal care: primary health care center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57i,antenatal care: primary health clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57j,antenatal care: health post,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57k,antenatal care: other public sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57l,na - antenatal care: cs public health,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57m,antenatal care: private hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57n,antenatal care: private clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57o,antenatal care: pharmacy,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57p,antenatal care: patent & proprietary medicine vendors (ppmv),no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57q,antenatal care: private doctor,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57r,antenatal care: mobile clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57s,antenatal care: maternity center,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57t,antenatal care: other private medical sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57na,antenatal care: faith-based hospital,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nb,antenatal care: faith-based clinic,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nc,antenatal care: other ngo medical sector,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m57nd,na - antenatal care: ngo medical,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57ne,na - antenatal care: ngo medical,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57u,na - antenatal care: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57v,na - antenatal care: cs other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+m57x,antenatal care: other,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+m61,time spent at place of delivery,hours: 0 = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | weeks: 1 = 301 | weeks: number missing = 399 | don't know = 998,"haven_labelled, vctrs_vctr, double",11453,63.67730457022128,64
+m62,respondent's health checked after delivery before discharge,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",11453,63.67730457022128,2
+m63,how long after delivery respondent's health check before discharge took place,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",12773,71.01634604692538,39
+m66,respondent's health checked after discharge/delivery at home,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3645,20.265762259535194,2
+m67,how long after delivery respondent's health check (after discharge/home delivery,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,42
+m68,who checked respondent's health after discharge/delivery at home,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,7
+m69,where respondent's check after discharge/delivery at home took place,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",15707,87.32903369287224,19
+m70,child's health checked after discharge/delivery at home,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",3946,21.939286111419992,3
+m71,how long after delivery child's health check (after discharge/home delivery) too,immediately/in first hour = 100 | hours: 1 = 101 | hours: number missing = 199 | days: 1 = 201 | days: number missing = 299 | weeks: 1 = 301 | weeks: number missing = 399 | don't know = 998,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,50
+m72,who checked child's health after discharge/home delivery,---health personnel--- = 10 | doctor = 11 | nurse/midwife = 12 | community health extension worker = 13 | ---other person--- = 20 | auxiliary midwife = 21 | traditional birth attendant = 22 | community health influencers promoters and services (chips)/community health wor = 23 | other = 96,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,7
+m73,where child's health check after discharge/home delivery took place,---home--- = 10 | her home = 11 | other home = 12 | ---public sector--- = 20 | teaching hospital = 21 | federal medical center = 22 | general hospital = 23 | primary health care center = 24 | primary health clinic = 25 | health post = 26 | other public sector = 27 | ---private medical sector--- = 30 | private hospital = 31 | private clinic = 32 | pharmacy = 33 | patent and proprietary medicine vendors (ppmv) = 34 | private doctor = 35 | mobile clinic = 36 | maternity center = 37 | other private medical = 38 | ---ngo medical sector--- = 40 | faith-based hospital = 41 | faith-based clinic = 42 | other ngo medical sector = 46 | ---other--- = 90 | other = 96,"haven_labelled, vctrs_vctr, double",15654,87.03436005782275,18
+m75,how long after delivery child's health check before discharge took place,zero hours = 100 | one day = 201 | one week = 301 | don't know = 998,"haven_labelled, vctrs_vctr, double",13030,72.44523518292006,38
+mh3a,na - during antenatal care discussed: where to deliver baby,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3b,"na - during antenatal care discussed: if wanted a relative, friend, neighbor dur",no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3c,na - during antenatal care discussed: transportation to delivery place,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3d,na - during antenatal care discussed: source of funds for delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3e,na - during antenatal care discussed: asking someone as blood donor if necessary,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3f,na - during antenatal care discussed: find healthcare provider to deliver child,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3g,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3h,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh3i,na - during antenatal care discussed: cs,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh5,na - healthcare provider measure blood pressure before delivery,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh10,na - during delivery wanted to have someone by your side,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh11,na - during delivery the person you wanted by your side was with you,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh12,na - during delivery how much time the person you wanted by your side was allowe,some of the time = 1 | most of the time = 2 | all of the time = 3,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh13,na - reason the person you wanted by your side was not with you during delivery,facility did not allow = 1 | absent for other reason = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh15,na - while in labor or delivery did feel ignored/neglected by facility staff,facility did not allow = 1 | absent for other reason = 2 | don't know = 8,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh16,na - while in labor or delivery did have privacy,"no = 0 | yes, separate room = 1 | yes, curtains = 2 | yes, other = 6 | don't know = 8","haven_labelled, vctrs_vctr, double",17986,100,0
+mh17a,na - at delivery place did healthcare providers: treated you with respect,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17b,na - at delivery place did healthcare providers: explained examinations/procedur,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17c,na - at delivery place did healthcare providers: took best care of you,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17d,na - at delivery place did healthcare providers: cs,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+mh17e,na - at delivery place did healthcare providers: cs,not at all = 0 | all of the time = 1 | some of the time = 2,"haven_labelled, vctrs_vctr, double",17986,100,0
+s114,highest educational level,primary = 1 | secondary = 2 | higher = 3,"haven_labelled, vctrs_vctr, double",7315,40.670521516735235,3
+s1112ga,tested during antenatal care: hep b,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,3
+s1112gb,tested during antenatal care: hep c,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",5615,31.21872567552541,3
+s1112ng,risks for spread: not maintaining social distance,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s1112od,measures taken to reduce risk: maintaining distance,no = 0 | yes = 1 | don't know = 8,"haven_labelled, vctrs_vctr, double",1181,6.566218169687535,2
+s418aa,antenatal care fp counselling: all methods appropriate,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ab,antenatal care fp counselling: possible side effects,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ac,antenatal care fp counselling: lam,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ad,antenatal care fp counselling: transition from lam to other modern methods,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ae,antenatal care fp counselling: spacing pregnancies,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418af,antenatal care fp counselling: fertility intentions,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2
+s418ag,antenatal care fp counselling: return to facility,no = 0 | yes = 1,"haven_labelled, vctrs_vctr, double",7539,41.9159346158123,2

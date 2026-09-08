@@ -1,0 +1,6 @@
+equity_variable,equity_dimension,indicator_variable,indicator,highest_group,highest_percent,highest_ci_low,highest_ci_high,highest_group_n,highest_reporting_status,lowest_group,lowest_percent,lowest_ci_low,lowest_ci_high,lowest_group_n,lowest_reporting_status,groups_compared,caution_groups,absolute_gap_pp,relative_ratio,relative_shortfall_percent,comparison_status,disparity_rank
+education,Education,complete_continuum,Complete continuum,higher,69.66,66.32,73.01,1061,Report,no education,6.45,5.37,7.53,4513,Report,4,0,63.21,10.8,90.74,Report,1
+wealth_quintile,Wealth quintile,complete_continuum,Complete continuum,richest,65.79,62.79,68.79,1542,Report,poorest,4.63,3.45,5.82,2755,Report,5,0,61.16,14.21,92.96,Report,2
+zone,Zone,complete_continuum,Complete continuum,south west,63.6,59.23,67.97,900,Report,north west,10.35,8.65,12.04,3249,Report,6,0,53.25,6.14,83.73,Report,3
+residence,Residence,complete_continuum,Complete continuum,urban,43.34,40.76,45.92,3808,Report,rural,13.34,12.06,14.62,6428,Report,2,0,30,3.25,69.22,Report,4
+age_group,Age group,complete_continuum,Complete continuum,30-34,29.92,27.52,32.32,2287,Report,15-19,12.41,9.12,15.69,654,Report,7,0,17.51,2.41,58.52,Report,5

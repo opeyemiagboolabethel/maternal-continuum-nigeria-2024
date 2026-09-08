@@ -1,0 +1,11 @@
+variable,valid_binary_coding
+anc_4plus,TRUE
+anc_8plus,TRUE
+skilled_birth,TRUE
+facility_delivery,TRUE
+mother_pnc_2days,TRUE
+newborn_pnc_2days,TRUE
+paired_pnc_2days,TRUE
+complete_continuum,TRUE
+complete_continuum_anc8,TRUE
+complete_continuum_facility,TRUE

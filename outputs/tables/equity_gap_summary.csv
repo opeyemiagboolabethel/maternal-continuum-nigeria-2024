@@ -1,0 +1,41 @@
+equity_variable,equity_dimension,indicator_variable,indicator,highest_group,highest_percent,highest_ci_low,highest_ci_high,highest_group_n,highest_reporting_status,lowest_group,lowest_percent,lowest_ci_low,lowest_ci_high,lowest_group_n,lowest_reporting_status,groups_compared,caution_groups,absolute_gap_pp,relative_ratio,relative_shortfall_percent,comparison_status
+age_group,Age group,anc_4plus,Four or more ANC contacts,30-34,58.53,55.68,61.39,2287,Report,15-19,40.16,35.01,45.3,654,Report,7,0,18.37,1.46,31.39,Report
+age_group,Age group,anc_8plus,Eight or more ANC contacts,30-34,20.42,18.27,22.57,2287,Report,15-19,8.49,5.69,11.28,654,Report,7,0,11.93,2.41,58.42,Report
+age_group,Age group,complete_continuum,Complete continuum,30-34,29.92,27.52,32.32,2287,Report,15-19,12.41,9.12,15.69,654,Report,7,0,17.51,2.41,58.52,Report
+age_group,Age group,facility_delivery,Health facility delivery,35-39,48.2,44.89,51.5,1453,Report,45-49,30.66,22.55,38.78,146,Report,7,0,17.54,1.57,36.39,Report
+age_group,Age group,mother_pnc_2days,Maternal PNC within 2 days,30-34,48.17,45.46,50.87,2365,Report,45-49,30.21,21.63,38.8,146,Report,7,0,17.96,1.59,37.28,Report
+age_group,Age group,newborn_pnc_2days,Newborn PNC within 2 days,30-34,46.41,43.71,49.11,2365,Report,45-49,29.93,21.45,38.42,146,Report,7,0,16.48,1.55,35.51,Report
+age_group,Age group,paired_pnc_2days,Mother and newborn both received PNC within 2 days,30-34,42.96,40.34,45.59,2365,Report,15-19,25.96,21.26,30.66,666,Report,7,0,17,1.65,39.57,Report
+age_group,Age group,skilled_birth,Skilled birth attendance,35-39,50.29,46.83,53.76,1463,Report,15-19,31.92,27.02,36.81,666,Report,7,0,18.37,1.58,36.53,Report
+education,Education,anc_4plus,Four or more ANC contacts,higher,90.62,88.62,92.63,1061,Report,no education,31.83,29.25,34.41,4513,Report,4,0,58.79,2.85,64.88,Report
+education,Education,anc_8plus,Eight or more ANC contacts,higher,45.93,42.21,49.65,1061,Report,no education,3.24,2.48,4,4513,Report,4,0,42.69,14.18,92.95,Report
+education,Education,complete_continuum,Complete continuum,higher,69.66,66.32,73.01,1061,Report,no education,6.45,5.37,7.53,4513,Report,4,0,63.21,10.8,90.74,Report
+education,Education,facility_delivery,Health facility delivery,higher,90.07,87.89,92.25,1137,Report,no education,17.95,16.04,19.86,4528,Report,4,0,72.12,5.02,80.07,Report
+education,Education,mother_pnc_2days,Maternal PNC within 2 days,higher,82.86,80.1,85.62,1143,Report,no education,22.12,20.25,23.99,4534,Report,4,0,60.74,3.75,73.3,Report
+education,Education,newborn_pnc_2days,Newborn PNC within 2 days,higher,80.96,78.2,83.73,1143,Report,no education,22.07,20.2,23.94,4534,Report,4,0,58.89,3.67,72.74,Report
+education,Education,paired_pnc_2days,Mother and newborn both received PNC within 2 days,higher,77.5,74.31,80.7,1143,Report,no education,18.54,16.79,20.29,4534,Report,4,0,58.96,4.18,76.08,Report
+education,Education,skilled_birth,Skilled birth attendance,higher,90.85,88.71,92.98,1143,Report,no education,18.05,16.22,19.87,4534,Report,4,0,72.8,5.03,80.13,Report
+residence,Residence,anc_4plus,Four or more ANC contacts,urban,73.54,71.13,75.96,3808,Report,rural,41.83,39.38,44.28,6428,Report,2,0,31.71,1.76,43.12,Report
+residence,Residence,anc_8plus,Eight or more ANC contacts,urban,31.13,28.87,33.38,3808,Report,rural,8.26,7.18,9.34,6428,Report,2,0,22.87,3.77,73.47,Report
+residence,Residence,complete_continuum,Complete continuum,urban,43.34,40.76,45.92,3808,Report,rural,13.34,12.06,14.62,6428,Report,2,0,30,3.25,69.22,Report
+residence,Residence,facility_delivery,Health facility delivery,urban,66.16,63.4,68.92,3982,Report,rural,28.74,26.58,30.9,6478,Report,2,0,37.42,2.3,56.56,Report
+residence,Residence,mother_pnc_2days,Maternal PNC within 2 days,urban,63.34,60.66,66.03,4012,Report,rural,30.33,28.47,32.19,6510,Report,2,0,33.01,2.09,52.12,Report
+residence,Residence,newborn_pnc_2days,Newborn PNC within 2 days,urban,62.01,59.46,64.56,4012,Report,rural,30.18,28.31,32.04,6510,Report,2,0,31.83,2.05,51.33,Report
+residence,Residence,paired_pnc_2days,Mother and newborn both received PNC within 2 days,urban,57.24,54.6,59.89,4012,Report,rural,26.45,24.68,28.21,6510,Report,2,0,30.79,2.16,53.79,Report
+residence,Residence,skilled_birth,Skilled birth attendance,urban,69.67,66.82,72.52,4012,Report,rural,30.03,27.83,32.24,6510,Report,2,0,39.64,2.32,56.9,Report
+wealth_quintile,Wealth quintile,anc_4plus,Four or more ANC contacts,richest,90.57,88.86,92.29,1542,Report,poorest,27.54,24.59,30.49,2755,Report,5,0,63.03,3.29,69.59,Report
+wealth_quintile,Wealth quintile,anc_8plus,Eight or more ANC contacts,richest,52.37,48.89,55.84,1542,Report,poorest,2.82,2.01,3.63,2755,Report,5,0,49.55,18.57,94.62,Report
+wealth_quintile,Wealth quintile,complete_continuum,Complete continuum,richest,65.79,62.79,68.79,1542,Report,poorest,4.63,3.45,5.82,2755,Report,5,0,61.16,14.21,92.96,Report
+wealth_quintile,Wealth quintile,facility_delivery,Health facility delivery,richest,89.52,87.67,91.38,1645,Report,poorest,17.35,14.81,19.89,2763,Report,5,0,72.17,5.16,80.62,Report
+wealth_quintile,Wealth quintile,mother_pnc_2days,Maternal PNC within 2 days,richest,81.58,79.01,84.15,1659,Report,poorest,22.05,19.49,24.6,2766,Report,5,0,59.53,3.7,72.97,Report
+wealth_quintile,Wealth quintile,newborn_pnc_2days,Newborn PNC within 2 days,richest,79.56,77.17,81.95,1659,Report,poorest,22.45,19.84,25.07,2766,Report,5,0,57.11,3.54,71.78,Report
+wealth_quintile,Wealth quintile,paired_pnc_2days,Mother and newborn both received PNC within 2 days,richest,75.07,72.27,77.86,1659,Report,poorest,18.49,16.05,20.94,2766,Report,5,0,56.58,4.06,75.37,Report
+wealth_quintile,Wealth quintile,skilled_birth,Skilled birth attendance,richest,91.52,89.73,93.31,1659,Report,poorest,15.55,13.46,17.64,2766,Report,5,0,75.97,5.89,83.01,Report
+zone,Zone,anc_4plus,Four or more ANC contacts,south west,88.01,85.24,90.77,900,Report,north west,40.77,37.39,44.15,3249,Report,6,0,47.24,2.16,53.68,Report
+zone,Zone,anc_8plus,Eight or more ANC contacts,south west,68.82,65.13,72.52,900,Report,north east,3.98,2.84,5.12,2268,Report,6,0,64.84,17.29,94.22,Report
+zone,Zone,complete_continuum,Complete continuum,south west,63.6,59.23,67.97,900,Report,north west,10.35,8.65,12.04,3249,Report,6,0,53.25,6.14,83.73,Report
+zone,Zone,facility_delivery,Health facility delivery,south east,87.89,85.13,90.65,1075,Report,north west,21.5,18.79,24.22,3256,Report,6,0,66.39,4.09,75.54,Report
+zone,Zone,mother_pnc_2days,Maternal PNC within 2 days,south west,78.51,75.12,81.9,992,Report,north west,24.89,22.33,27.46,3259,Report,6,0,53.62,3.15,68.3,Report
+zone,Zone,newborn_pnc_2days,Newborn PNC within 2 days,south west,79.13,75.79,82.46,992,Report,north west,23.89,21.44,26.34,3259,Report,6,0,55.24,3.31,69.81,Report
+zone,Zone,paired_pnc_2days,Mother and newborn both received PNC within 2 days,south west,74.37,70.68,78.05,992,Report,north west,19.81,17.49,22.14,3259,Report,6,0,54.56,3.75,73.36,Report
+zone,Zone,skilled_birth,Skilled birth attendance,south east,88.14,84.58,91.69,1093,Report,north west,25.02,22.04,27.99,3259,Report,6,0,63.12,3.52,71.61,Report

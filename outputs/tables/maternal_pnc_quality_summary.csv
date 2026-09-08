@@ -1,0 +1,11 @@
+quality_check,result
+Analytical cohort size,10522
+Maternal PNC indicator non-missing,10522
+PNC before discharge within 2 days,3758
+PNC after discharge/home delivery within 2 days,1397
+Maternal PNC within 2 days,4747
+Invalid maternal PNC values,0
+Before-discharge PNC without eligible provider,0
+After-discharge PNC without eligible provider,0
+Combined PNC without component PNC,0
+Unclassified maternal PNC timing codes,0
