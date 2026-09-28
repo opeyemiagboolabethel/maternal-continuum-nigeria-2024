@@ -1,18 +1,15 @@
 # =========================================================
-# CONTROLLED / RESPONDENT-LEVEL DATA
+# RESTRICTED / RESPONDENT-LEVEL DATA
 # =========================================================
-
 data/raw/*
 data/interim/*
+data/Interim/*
 data/processed/*
-
-# Allow the explanatory text file in raw/
 !data/raw/DHS_DATA_NOT_INCLUDED.txt
 
 # =========================================================
-# CREDENTIALS
+# CREDENTIALS / LOCAL CONFIGURATION
 # =========================================================
-
 .Renviron
 .env
 config/local.yml
@@ -20,46 +17,34 @@ config/local.yml
 # =========================================================
 # DATABASE EXPORTS
 # =========================================================
-
 *.dump
 *.backup
 *.sql.gz
 
 # =========================================================
-# R TEMPORARY FILES
+# R / RSTUDIO LOCAL FILES
 # =========================================================
-
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
-
 renv/library/
 renv/staging/
 
 # =========================================================
-# POWER BI BINARY FILES
+# POWER BI LOCAL / BINARY FILES
 # =========================================================
-
 *.pbix
+*.pbit
+*.abf
+**/.pbi/
 
 # =========================================================
-# MICROSOFT OFFICE TEMPORARY FILES
+# OFFICE / OPERATING SYSTEM / TEMPORARY FILES
 # =========================================================
-
 ~$*
-
-# =========================================================
-# OPERATING SYSTEM FILES
-# =========================================================
-
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# =========================================================
-# TEMPORARY FILES
-# =========================================================
-
 *.tmp
 *.log
