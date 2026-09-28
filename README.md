@@ -73,7 +73,21 @@ The final Power BI report contains nine pages:
 8. Sensitivity & Robustness
 9. About & Methodology
 
-The final report was developed in Power BI Project (PBIP) format. Public-repository documentation and screenshots are kept separate from local Power BI caches, credentials, and restricted data.
+The final report was developed in Power BI Project (PBIP) format. Selected disclosure-controlled report views are shown below; restricted data, credentials, and local Power BI caches are not published.
+
+### Selected report views
+
+#### Executive Overview
+![Executive Overview](docs/images/executive-overview.webp)
+
+#### Continuum of Care
+![Continuum of Care](docs/images/continuum-of-care.webp)
+
+#### Geographic Analysis
+![Geographic Analysis](docs/images/geographic-analysis.webp)
+
+#### Regression Results
+![Regression Results](docs/images/regression-results.webp)
 
 ## Repository structure
 
@@ -168,8 +182,6 @@ The final R reconciliation reports:
 - **0 critical historical QA failures**
 
 The PostgreSQL layer also contains validation scripts for row counts, uniqueness, numeric ranges, CI logic, regression results, sensitivity outputs, and reporting-object availability.
-
-> **Power BI note:** the interactive report was developed locally in PBIP format. Public portfolio screenshots will be added under `docs/images/`; restricted data and local Power BI caches are not published.
 
 ## Important limitations
 
