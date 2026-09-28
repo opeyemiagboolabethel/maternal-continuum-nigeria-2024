@@ -1,3 +1,11 @@
 # Portfolio images
 
-Exported Power BI screenshots used in the GitHub README and personal portfolio will be stored here. Add only disclosure-controlled report images with no respondent-level data.
+This directory contains selected disclosure-controlled Power BI report views used in the GitHub case study and personal portfolio.
+
+Included views:
+- Executive Overview
+- Continuum of Care
+- Geographic Analysis
+- Regression Results
+
+No respondent-level NDHS data, credentials, or local Power BI cache files are included.
